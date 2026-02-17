@@ -73,7 +73,7 @@ git clone <repository-url>
 cd <展開したルートディレクトリ>
 
 # 方法B: GitHubからZIPをダウンロードして展開
-# トップページの「Code」（右上の緑のボタン）→Localタブの「Download ZIP」からダウンロードし、展開したフォルダに移動
+# トップページの「Code」（右上、緑ボタン）→「Download ZIP」からダウンロードし、展開したフォルダに移動
 cd <展開したルートディレクトリ>
 
 # 2. Claude Codeにログインした状態で、ルートディレクトリをCLIのターミナルで開く
@@ -506,30 +506,44 @@ AIがつくったモデルを深く検証せずに採用した場合、以下の
 ### 風呂屋の匠
 
 #### 企画ファイル
-[input/idea.md](samples/furoya-takumi/input/idea.md)
+
+[企画の元となるファイル：samples/furoya-takumi/input/idea.md](samples/furoya-takumi/input/idea.md)
 
 #### 匠Method Agentで自動生成された成果物
 
 ##### ステークホルダーモデル
-<img src="samples/furoya-takumi/output/drawio/stakeholder.drawio.png" width="700" alt="ステークホルダーモデル">
+<img src="samples/furoya-takumi/output/drawio/stakeholder.drawio.png" width="900" alt="ステークホルダーモデル">
 
 ##### 価値デザインモデル
-<img src="samples/furoya-takumi/output/drawio/value-design.drawio.png" width="700" alt="価値デザインモデル">
+<img src="samples/furoya-takumi/output/drawio/value-design.drawio.png" width="900" alt="価値デザインモデル">
+
+###### デザインロゴ
+<img src="samples/furoya-takumi/output/value-design-logo.svg" width="300" alt="デザインロゴ">
 
 ##### 価値分析モデル
-<img src="samples/furoya-takumi/output/drawio/value-analysis.drawio.png" width="700" alt="価値分析モデル">
+<img src="samples/furoya-takumi/output/drawio/value-analysis.drawio.png" width="900" alt="価値分析モデル">
 
 ##### 要求分析ツリー
-<img src="samples/furoya-takumi/output/drawio/requirement-tree.drawio.png" width="700" alt="要求分析ツリー">
+<img src="samples/furoya-takumi/output/drawio/requirement-tree.drawio.png" width="900" alt="要求分析ツリー">
 
 ##### ビジネスコンテキストフロー
-<img src="samples/furoya-takumi/output/drawio/business-context-flow.drawio.png" width="700" alt="要求分析ツリー">
+<img src="samples/furoya-takumi/output/drawio/business-context-flow.drawio.png" width="900" alt="要求分析ツリー">
+
+##### ゴール記述モデル
+[samples/furoya-takumi/output/goal-description-model.tsv](samples/furoya-takumi/output/goal-description-model.tsv)
+
+##### 匠Method Value Metrics
+
+[価値概念とIT要求/活動のスコア比較：samples/furoya-takumi/output/vm-compare-score.md]
+
+##### MSP(Minimum Sellable Product)
+[samples/furoya-takumi/output/msp-plan.md](samples/furoya-takumi/output/msp-plan.md)
 
 ##### 提案書
-[output/proposal-format1.md](samples/furoya-takumi/output/proposal-format1.md)
+[samples/furoya-takumi/output/proposal-format1.md](samples/furoya-takumi/output/proposal-format1.md)
 
 ##### その他の成果物
-- [output配下](samples/furoya-takumi/output/)
+- [samples/furoya-takumi/output配下](samples/furoya-takumi/output/)
 
 
 ## ライセンス
@@ -539,3 +553,6 @@ AIがつくったモデルを深く検証せずに採用した場合、以下の
 - 商用利用・改変・再配布: 自由
 - 改変コードの公開義務: なし
 - 特許の明示的許諾: あり
+
+
+[def]: samples/furoya-takumi/output/vm-compare-score.md
