@@ -89,7 +89,7 @@
 [samples/furoya-takumi/output/proposal-format1.md](samples/furoya-takumi/output/proposal-format1.md)
 
 #### その他の成果物
-- [samples/furoya-takumi/output配下](samples/furoya-takumi/output/)
+[samples/furoya-takumi/output配下](samples/furoya-takumi/output/)
 
 ## 対応OS
 
