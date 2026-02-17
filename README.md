@@ -80,7 +80,7 @@
 
 #### 匠Method Value Metrics
 
-[価値概念とIT要求/活動のスコア比較：](samples/furoya-takumi/output/vm-compare-score.md)
+[価値概念とIT要求/活動のスコア比較：samples/furoya-takumi/output/vm-compare-score.md](samples/furoya-takumi/output/vm-compare-score.md)
 
 #### MSP(Minimum Sellable Product)の計画
 [samples/furoya-takumi/output/msp-plan.md](samples/furoya-takumi/output/msp-plan.md)
