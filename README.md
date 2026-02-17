@@ -189,7 +189,9 @@ URLを指定すると、製品・サービスを分析して企画案を自動�
 - [docs/process-flow.drawio](docs/process-flow.drawio) (DrawIO)
 - [docs/process-flow.drawio.png](docs/process-flow.drawio.png) (画像)
 
-### クイックスタート（全成果物一括実行）
+### クイックスタート
+
+#### 全成果物一括実行
 
 企画案を準備したら、以下のコマンドで全成果物を一括生成できます。
 
@@ -211,6 +213,17 @@ URLを指定すると、製品・サービスを分析して企画案を自動�
 ```
 output/フォルダ内にファイルが作成されていないようです。出力内容を確認し、再度出力してください。
 ```
+
+#### ステップバイステップの実行
+
+ステークホルダーモデルの作成から初めます。
+
+```
+# hase 1-1（ステークホルダー抽出とTSV生成）を実行
+/stakeholder-extractor
+```
+
+全体の流れは、[docs/process-flow.drawio.png](docs/process-flow.drawio.png) を参照してください。
 
 ### 検証/洗練
 
