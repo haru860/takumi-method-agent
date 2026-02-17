@@ -252,8 +252,12 @@
 │   └── process-flow.drawio      # プロセスフロー図
 ├── input/
 │   └── idea.md                  # 企画案（ユーザーが準備）
-└── output/                      # 生成された成果物（TSV, JSON, MD, DrawIO）
-    └── drawio/                  # DrawIOモデル
+├── output/                      # 生成された成果物（TSV, JSON, MD, DrawIO）
+│   └── drawio/                  # DrawIOモデル
+└── samples/                     # サンプル企画（入出力の参考例）
+    └── furoya-takumi/           # サンプル：風呂屋の匠
+        ├── input/               # 企画案（idea.md）
+        └── output/              # 全成果物（TSV, JSON, MD, DrawIO）
 ```
 
 ## トラブルシューティング
