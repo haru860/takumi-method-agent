@@ -185,8 +185,9 @@ URLを指定すると、製品・サービスを分析して企画案を自動�
 - ステップバイステップのコマンド実行：成果物を確認、修正しながら進める場合
 
 全体のプロセスフローは以下のファイルを参照してください。
-- `docs/process-flow.drawio` (DrawIO)
-- `docs/process-flow.png` (画像)
+
+- [docs/process-flow.drawio](docs/process-flow.drawio) (DrawIO)
+- [docs/process-flow.drawio.png](docs/process-flow.drawio.png) (画像)
 
 ### クイックスタート（全成果物一括実行）
 
