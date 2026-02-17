@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.10">
+  <diagram name="ページ1" id="9rDMMgrgiCLavTX_o5wa">
+    <mxGraphModel dx="2199" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="一般消費者" vertex="1">
+          <mxGeometry height="60" width="30" x="164" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="ECサイト運営社" vertex="1">
+          <mxGeometry height="60" width="30" x="374" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="出店者" vertex="1">
+          <mxGeometry height="60" width="30" x="604" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-10" edge="1" parent="1" source="_ALzf5xJaRZUyI93i5Jb-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_ALzf5xJaRZUyI93i5Jb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-11" connectable="0" parent="_ALzf5xJaRZUyI93i5Jb-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="商品を出品する" vertex="1">
+          <mxGeometry relative="1" x="-0.0174" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-12" edge="1" parent="1" source="_ALzf5xJaRZUyI93i5Jb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_ALzf5xJaRZUyI93i5Jb-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-13" connectable="0" parent="_ALzf5xJaRZUyI93i5Jb-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="商品を配送する" vertex="1">
+          <mxGeometry relative="1" x="0.0068" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-14" edge="1" parent="1" source="_ALzf5xJaRZUyI93i5Jb-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_ALzf5xJaRZUyI93i5Jb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-15" connectable="0" parent="_ALzf5xJaRZUyI93i5Jb-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="商品を購入する" vertex="1">
+          <mxGeometry relative="1" x="0.0095" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-16" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="企業出店者" vertex="1">
+          <mxGeometry height="60" width="30" x="604" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-17" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="個人出店者" vertex="1">
+          <mxGeometry height="60" width="30" x="704" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-18" edge="1" parent="1" source="_ALzf5xJaRZUyI93i5Jb-16" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="_ALzf5xJaRZUyI93i5Jb-9" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="544" y="410" as="sourcePoint" />
+            <mxPoint x="704" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-19" edge="1" parent="1" source="_ALzf5xJaRZUyI93i5Jb-17" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="_ALzf5xJaRZUyI93i5Jb-9" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="614" y="310" as="sourcePoint" />
+            <mxPoint x="614" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-21" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="自分の体型にあった商品が見つけたい" vertex="1">
+          <mxGeometry height="60" width="110" x="-60" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-22" edge="1" parent="1" source="_ALzf5xJaRZUyI93i5Jb-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=110;entryDy=40;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" target="_ALzf5xJaRZUyI93i5Jb-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-23" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="自社のニッチな商品を求めている消費者に届けたい" vertex="1">
+          <mxGeometry height="60" width="110" x="790" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_ALzf5xJaRZUyI93i5Jb-24" edge="1" parent="1" source="_ALzf5xJaRZUyI93i5Jb-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="_ALzf5xJaRZUyI93i5Jb-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="569" y="140" as="sourcePoint" />
+            <mxPoint x="524" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1-fnYOOhJaauswHDbYAl-1" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="自分がほしいと思ったタイミングで商品が欲しい" vertex="1">
+          <mxGeometry height="60" width="110" x="-60" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1-fnYOOhJaauswHDbYAl-2" edge="1" parent="1" source="_ALzf5xJaRZUyI93i5Jb-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=110;entryDy=40;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="1-fnYOOhJaauswHDbYAl-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="184" y="135" as="sourcePoint" />
+            <mxPoint x="140" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

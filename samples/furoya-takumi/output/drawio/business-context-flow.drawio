@@ -1,0 +1,338 @@
+<mxfile host="app.diagrams.net" modified="2026-02-17T00:00:00.000Z" agent="Claude Code" version="24.0.0" type="device">
+  <diagram name="ビジネスコンテキストフロー_風呂屋復活プロジェクト" id="business_context_flow_furoya">
+    <mxGraphModel dx="2000" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- 中央：風呂屋の匠（銭湯） -->
+        <mxCell id="central_furoya" value="株式会社&#xa;「風呂屋の匠」&#xa;（銭湯運営）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="700" width="300" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- 上部：顧客層 -->
+        <mxCell id="actor_townspeople" value="地元町内の住民" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="700" y="200" width="60" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="actor_visitors" value="近隣地域からの&#xa;来訪者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="200" width="60" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- 左側：資金提供者 -->
+        <mxCell id="actor_investors" value="町内会の若手20名&#xa;（出資者・協力者）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="200" y="650" width="60" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="actor_government" value="地方自治体" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="200" y="950" width="60" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- 右側：経営・運営関係者 -->
+        <mxCell id="actor_tanaka" value="田中さん&#xa;（創業者・代表者）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="600" width="60" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="actor_son" value="田中さんの息子&#xa;（事業承継候補者）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="900" width="60" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- 下部：地域関係者 -->
+        <mxCell id="actor_shopping" value="商店街関係者&#xa;（周辺事業者）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1250" width="60" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- ========== カネの流れ（赤） ========== -->
+
+        <!-- 若手出資者 → 風呂屋の匠（出資金） -->
+        <mxCell id="flow_money_invest" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1" source="actor_investors" target="central_furoya">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_money_invest" value="出資金&#xa;（約1,000万円）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;fontSize=12;fontStyle=1;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_money_invest">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint x="30" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 風呂屋の匠 → 若手出資者（配当・還元） -->
+        <mxCell id="flow_money_dividend" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="central_furoya" target="actor_investors">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="850" />
+              <mxPoint x="400" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_money_dividend" value="配当・還元" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;fontSize=12;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_money_dividend">
+          <mxGeometry x="0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 町内住民 → 風呂屋の匠（入浴料・割引適用） -->
+        <mxCell id="flow_money_townspeople" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1" source="actor_townspeople" target="central_furoya">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_money_townspeople" value="入浴料&#xa;（町内割引適用）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;fontSize=12;fontStyle=1;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_money_townspeople">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint x="-30" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 近隣来訪者 → 風呂屋の匠（入浴料） -->
+        <mxCell id="flow_money_visitors" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1" source="actor_visitors" target="central_furoya">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_money_visitors" value="入浴料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;fontSize=12;fontStyle=1;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_money_visitors">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint x="30" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 地方自治体 → 風呂屋の匠（町おこし支援金） -->
+        <mxCell id="flow_money_government" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="actor_government" target="central_furoya">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_money_government" value="町おこし&#xa;支援金" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;fontSize=12;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_money_government">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint x="40" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ========== モノ・サービスの流れ（緑） ========== -->
+
+        <!-- 風呂屋の匠 → 町内住民（入浴サービス、交流イベント、コミュニティ空間） -->
+        <mxCell id="flow_service_townspeople" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#009900;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1" source="central_furoya" target="actor_townspeople">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="650" />
+              <mxPoint x="650" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_service_townspeople" value="入浴サービス&#xa;交流イベント&#xa;コミュニティ空間" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#009900;fontSize=12;fontStyle=1;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_service_townspeople">
+          <mxGeometry x="0.3" y="2" relative="1" as="geometry">
+            <mxPoint x="-50" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 風呂屋の匠 → 近隣来訪者（癒しの入浴体験、銭湯文化体験） -->
+        <mxCell id="flow_service_visitors" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#009900;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1" source="central_furoya" target="actor_visitors">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="650" />
+              <mxPoint x="1250" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_service_visitors" value="癒しの入浴体験&#xa;銭湯文化体験" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#009900;fontSize=12;fontStyle=1;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_service_visitors">
+          <mxGeometry x="0.3" y="1" relative="1" as="geometry">
+            <mxPoint x="50" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 田中さん → 風呂屋の匠（銭湯経営ノウハウ、信頼） -->
+        <mxCell id="flow_service_tanaka" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#009900;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1" source="actor_tanaka" target="central_furoya">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_service_tanaka" value="銭湯経営&#xa;ノウハウ・信頼" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#009900;fontSize=12;fontStyle=1;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_service_tanaka">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint x="-40" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 風呂屋の匠 → 息子さん（事業承継、経営トレーニング） -->
+        <mxCell id="flow_service_son" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#009900;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1" source="central_furoya" target="actor_son">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_service_son" value="事業承継&#xa;経営トレーニング" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#009900;fontSize=12;fontStyle=1;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_service_son">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint x="-40" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 風呂屋の匠 → 商店街（地域活性化効果） -->
+        <mxCell id="flow_service_shopping" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#009900;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="central_furoya" target="actor_shopping">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_service_shopping" value="地域活性化効果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#009900;fontSize=12;fontStyle=1;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_service_shopping">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ========== 情報の流れ（青） ========== -->
+
+        <!-- 風呂屋の匠 → 若手出資者（経営報告、成果レポート） -->
+        <mxCell id="flow_info_investors" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;strokeWidth=2;dashed=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="central_furoya" target="actor_investors">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="600" />
+              <mxPoint x="300" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_info_investors" value="経営報告&#xa;成果レポート" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0000FF;fontSize=12;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_info_investors">
+          <mxGeometry x="0.1" y="2" relative="1" as="geometry">
+            <mxPoint x="-20" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 町内住民 → 風呂屋の匠（顧客ニーズ、フィードバック） -->
+        <mxCell id="flow_info_townspeople" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;strokeWidth=2;dashed=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="actor_townspeople" target="central_furoya">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="320" />
+              <mxPoint x="800" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_info_townspeople" value="顧客ニーズ&#xa;フィードバック" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0000FF;fontSize=12;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_info_townspeople">
+          <mxGeometry x="0.2" y="1" relative="1" as="geometry">
+            <mxPoint x="-60" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 風呂屋の匠 → 近隣来訪者（ブランド発信、イベント情報） -->
+        <mxCell id="flow_info_brand" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;strokeWidth=2;dashed=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="central_furoya" target="actor_visitors">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="650" />
+              <mxPoint x="1100" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_info_brand" value="ブランド発信&#xa;イベント情報" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0000FF;fontSize=12;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_info_brand">
+          <mxGeometry x="0.3" y="2" relative="1" as="geometry">
+            <mxPoint x="60" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 地方自治体 → 風呂屋の匠（町おこし認定情報） -->
+        <mxCell id="flow_info_government" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;strokeWidth=2;dashed=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="actor_government" target="central_furoya">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="1050" />
+              <mxPoint x="850" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_info_government" value="町おこし&#xa;認定情報" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0000FF;fontSize=12;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_info_government">
+          <mxGeometry x="0.1" y="1" relative="1" as="geometry">
+            <mxPoint x="-20" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 風呂屋の匠 → 商店街（地域活性化成果） -->
+        <mxCell id="flow_info_shopping" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;strokeWidth=2;dashed=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="central_furoya" target="actor_shopping">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_info_shopping" value="地域活性化成果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0000FF;fontSize=12;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_info_shopping">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint x="-20" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ========== 人の流れ（オレンジ） ========== -->
+
+        <!-- 町内住民 → 風呂屋の匠（来店、交流参加） -->
+        <mxCell id="flow_people_townspeople" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6600;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="actor_townspeople" target="central_furoya">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="260" />
+              <mxPoint x="600" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_people_townspeople" value="来店&#xa;交流参加" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF6600;fontSize=12;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_people_townspeople">
+          <mxGeometry x="0.2" y="1" relative="1" as="geometry">
+            <mxPoint x="-50" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 近隣来訪者 → 風呂屋の匠（来店、体験参加） -->
+        <mxCell id="flow_people_visitors" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6600;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="actor_visitors" target="central_furoya">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="260" />
+              <mxPoint x="1300" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_people_visitors" value="来店&#xa;体験参加" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF6600;fontSize=12;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_people_visitors">
+          <mxGeometry x="0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="50" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 若手出資者 → 風呂屋の匠（運営協力、イベント企画） -->
+        <mxCell id="flow_people_investors" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6600;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="actor_investors" target="central_furoya">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_people_investors" value="運営協力&#xa;イベント企画" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF6600;fontSize=12;backgroundColor=#ffffff;" vertex="1" connectable="0" parent="flow_people_investors">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint x="30" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ========== 凡例 ========== -->
+        <mxCell id="legend_box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1350" width="280" height="180" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend_title" value="凡例" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1360" width="60" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend_money" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1620" y="1405" as="sourcePoint" />
+            <mxPoint x="1700" y="1405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_money_label" value="カネの流れ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="1390" width="150" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend_service" value="" style="endArrow=classic;html=1;strokeColor=#009900;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1620" y="1440" as="sourcePoint" />
+            <mxPoint x="1700" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_service_label" value="モノ・サービスの流れ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="1425" width="160" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend_info" value="" style="endArrow=classic;html=1;strokeColor=#0000FF;strokeWidth=2;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1620" y="1475" as="sourcePoint" />
+            <mxPoint x="1700" y="1475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_info_label" value="情報の流れ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="1460" width="150" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend_people" value="" style="endArrow=classic;html=1;strokeColor=#FF6600;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1620" y="1510" as="sourcePoint" />
+            <mxPoint x="1700" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_people_label" value="人の流れ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="1495" width="150" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

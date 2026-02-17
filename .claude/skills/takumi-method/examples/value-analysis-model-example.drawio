@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e">
+    <diagram name="ページ1" id="akbwvu5QJCTVu3yhfPy7">
+        <mxGraphModel dx="1335" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="eYJ61m_CAIFUP5wYcHgM-1" value="元プロスポーツ選手" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="212.5" y="40" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="eYJ61m_CAIFUP5wYcHgM-2" value="アスリート指導希望者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="439" y="40" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="eYJ61m_CAIFUP5wYcHgM-3" value="プラットフォーム運営者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="665" y="40" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="eYJ61m_CAIFUP5wYcHgM-4" value="A.&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;; font-size: 10px; text-align: start; background-color: transparent;&quot;&gt;自分が長年培った競技スキルと知識を活かして指導者として活動できて嬉しい&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="150" width="155" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="eYJ61m_CAIFUP5wYcHgM-5" value="B. &lt;span style=&quot;color: rgb(63, 63, 63); font-family: &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;; font-size: 10px; text-align: start; background-color: transparent;&quot;&gt;プラットフォームを通じて継続的に指導機会を得ることで安定した収入を確保できて嬉しい&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="280" width="155" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="eYJ61m_CAIFUP5wYcHgM-6" value="C.&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;; font-size: 10px; text-align: start; background-color: transparent;&quot;&gt;プラットフォームで自分のレベルや目的に合った元プロ選手を簡単に見つけられて嬉しい&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="376.5" y="150" width="155" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="eYJ61m_CAIFUP5wYcHgM-7" value="D.&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;; font-size: 10px; text-align: start; background-color: transparent;&quot;&gt;プロの技術と経験を直接学べる貴重な機会を得られて嬉しい&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="376.5" y="280" width="155" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="eYJ61m_CAIFUP5wYcHgM-8" value="E.&lt;span style=&quot;color: rgb(63, 63, 63); font-family: &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;; font-size: 10px; text-align: start; background-color: transparent;&quot;&gt;元プロ選手のセカンドキャリア問題を解決し、スポーツ界全体に貢献できて嬉しい&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="602.5" y="150" width="155" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="eYJ61m_CAIFUP5wYcHgM-9" value="B.&lt;span style=&quot;color: rgb(63, 63, 63); font-family: &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;; font-size: 10px; text-align: start; background-color: transparent;&quot;&gt;利用者が増え続け、収益モデルが確立して事業として成長できて嬉しい&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+                    <mxGeometry x="602.5" y="280" width="155" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="eYJ61m_CAIFUP5wYcHgM-11" value="A.元プロ選手のキャリア再構築" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="15" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="eYJ61m_CAIFUP5wYcHgM-12" value="B.収益モデルの確立" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="201" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="eYJ61m_CAIFUP5wYcHgM-13" value="C.最適マッチングの仕組み構築" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="388" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="eYJ61m_CAIFUP5wYcHgM-14" value="D.品質基準とガバナンスの確立" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="574" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="eYJ61m_CAIFUP5wYcHgM-15" value="E.社会課題解決への貢献" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

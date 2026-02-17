@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2026-02-17T00:00:00.000Z" agent="Claude Code" version="24.0.0" type="device">
+  <diagram name="価値デザインモデル" id="value-design-model">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- ビジョン -->
+        <mxCell id="vision" value="&amp;lt;&amp;lt;ビジョン&amp;gt;&amp;gt;&lt;br&gt;地域の人々が日常的に集い、世代を超えた交流が生まれる。湯煙の中に笑顔と会話が溢れ、「ここに来れば誰かに会える」安心を届ける、次世代に誇りを持って引き継げる銭湯を創る"
+          style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=12;"
+          vertex="1" parent="1">
+          <mxGeometry x="350" y="50" width="700" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- コンセプト1 -->
+        <mxCell id="concept1" value="&amp;lt;&amp;lt;コミュニティ湯処（ゆどころ）&amp;gt;&amp;gt;&lt;br&gt;単なる入浴施設ではなく、地域住民が気軽に立ち寄れる「第三の居場所」として機能する銭湯。湯上がりスペースでの談話、地域情報の掲示、小規模なイベント開催など、入浴前後の時間も含めて「人が集まり、つながる」空間を創出する。"
+          style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontSize=11;"
+          vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="350" height="160" as="geometry"/>
+        </mxCell>
+
+        <!-- コンセプト2 -->
+        <mxCell id="concept2" value="&amp;lt;&amp;lt;世代交流の湯&amp;gt;&amp;gt;&lt;br&gt;子どもから高齢者まで、あらゆる世代が自然に交流できる環境を整える。子ども向けの浅い湯船、高齢者に優しいバリアフリー設計、家族で楽しめる露天風呂など、多様なニーズに応える浴場設計。昔ながらの番台文化の継承や、地域の歴史を感じられる装飾により、世代を超えた対話のきっかけを生み出す。"
+          style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontSize=11;"
+          vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="350" height="160" as="geometry"/>
+        </mxCell>
+
+        <!-- コンセプト3 -->
+        <mxCell id="concept3" value="&amp;lt;&amp;lt;地域と共に続く銭湯&amp;gt;&amp;gt;&lt;br&gt;地域の町おこしプロジェクトとして、商店街や自治体と連携しながら、持続可能な事業モデルを構築。町内住民向けの特別割引制度で地域との絆を深め、近隣地域からの来訪者には銭湯文化の魅力を発信。田中さんから次世代への技術・精神の継承を大切にしながら、100年後も「あって良かった」と言われる銭湯へ。"
+          style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontSize=11;"
+          vertex="1" parent="1">
+          <mxGeometry x="850" y="200" width="350" height="160" as="geometry"/>
+        </mxCell>
+
+        <!-- 言葉 -->
+        <mxCell id="words" value="&amp;lt;&amp;lt;言葉&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;湯煙でつなぐ、まちの縁側&lt;/b&gt;"
+          style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;fontSize=14;"
+          vertex="1" parent="1">
+          <mxGeometry x="50" y="420" width="300" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- 意味 -->
+        <mxCell id="meaning" value="&amp;lt;&amp;lt;意味&amp;gt;&amp;gt;&lt;br&gt;この企画は、単なる銭湯の再生を超えて、失われつつある地域コミュニティの再生装置としての役割を果たす。現代社会では地域住民同士のつながりが希薄化し、高齢者の孤立、子育て世代の孤独、地域の担い手不足が深刻化している。銭湯は「裸の付き合い」という日本文化特有の平等性と開放性を活かし、年齢・職業を超えた自然な交流を生み出す。町内会の若手20名が出資者として参加することで「自分たちの地域は自分たちで守り育てる」という当事者意識が醸成され、地域経済の内部循環が生まれる。この企画の本質は「場所の再生」を通じた「関係性の再生」であり、それによる「地域社会の持続可能性の回復」である。"
+          style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;"
+          vertex="1" parent="1">
+          <mxGeometry x="50" y="560" width="550" height="200" as="geometry"/>
+        </mxCell>
+
+        <!-- ストーリー -->
+        <mxCell id="story" value="&amp;lt;&amp;lt;ストーリー&amp;gt;&amp;gt;&lt;br&gt;【基盤づくりと信頼獲得（開業〜3ヶ月）】改装完了後、地域住民への内覧会とプレオープンを実施。常連客が戻る環境を整備し、安全・清潔・快適な基本サービスを確立。「あの銭湯が変わった」という口コミを地域内で醸成。&lt;br&gt;【コミュニティの芽生え（3〜6ヶ月）】常連客同士の自然な会話が増え、湯上がり処での滞在時間が延びる。親子連れや高齢者グループなど多様な客層が定着。&lt;br&gt;【世代を超えた交流の拡大（6ヶ月〜1年）】子どもと高齢者、若者と中年世代など異なる世代の交流が生まれる。「ここに来れば誰かに会える」という認識が定着。月間売上500万円を達成。&lt;br&gt;【地域の「縁側」としての定着（1〜2年）】銭湯が地域の重要なインフラとして認識される。高齢者の見守りや子育て相談など社会的機能が発揮。町おこしプロジェクト認定を取得。&lt;br&gt;【持続可能な事業モデルの確立（2〜3年）】田中さんから息子への事業承継が順調に進む。地域住民や若手出資者の参画意識が高まる。&lt;br&gt;【ビジョンの実現（3年以降）】地域の人々が日常的に集い世代を超えた交流が当たり前になる。他地域への展開や同様の取り組みへの支援を開始。"
+          style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;align=left;fontSize=10;"
+          vertex="1" parent="1">
+          <mxGeometry x="650" y="420" width="550" height="340" as="geometry"/>
+        </mxCell>
+
+        <!-- デザイン -->
+        <mxCell id="design" value="&amp;lt;&amp;lt;デザイン&amp;gt;&amp;gt;&lt;br&gt;【色彩計画】メインカラー: 藍色（#4A6FA5）- 湯煙と水を連想させる穏やかで落ち着いた青。アクセントカラー: 湯気白（#F5F5F5）- 清潔感と温もり。サブカラー: 縁側木（#8B7355）- 温かみのある茶系で懐かしさと安心感。&lt;br&gt;【形とモチーフ】円形で「つながり」「循環」を象徴。波紋で湯船に広がる波紋とコミュニティへの波及効果を表現。縁側モチーフで横に伸びる緩やかなラインによりオープンでフラットな関係性を視覚化。&lt;br&gt;【ビジュアル表現】伝統的な銭湯の要素（暖簾、タイル、湯煙）と現代的でシンプルな幾何学デザインを組み合わせた和モダン。&lt;br&gt;【ロゴデザイン】円形ベースのシンボルマーク。中央から立ち上る3本の湯煙曲線（3世代の象徴）。藍色・白・木色の3色構成。"
+          style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;verticalAlign=top;align=left;fontSize=10;"
+          vertex="1" parent="1">
+          <mxGeometry x="650" y="810" width="550" height="200" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

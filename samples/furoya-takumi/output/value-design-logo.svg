@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="180" fill="#F5F5F5" stroke="#4A6FA5" stroke-width="4"/>
+  <!-- Ripple circles (community spreading) -->
+  <circle cx="200" cy="240" r="60" fill="none" stroke="#4A6FA5" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="200" cy="240" r="90" fill="none" stroke="#4A6FA5" stroke-width="1" opacity="0.2"/>
+  <circle cx="200" cy="240" r="120" fill="none" stroke="#4A6FA5" stroke-width="0.8" opacity="0.1"/>
+  <!-- House silhouette (bathhouse with traditional roof) -->
+  <path d="M120,260 L120,200 L160,170 L200,150 L240,170 L280,200 L280,260 Z" fill="#4A6FA5" opacity="0.9"/>
+  <!-- Roof detail -->
+  <path d="M160,200 L200,170 L240,200" fill="none" stroke="#F5F5F5" stroke-width="2"/>
+  <!-- Door (engawa/entrance) -->
+  <rect x="185" y="225" width="30" height="35" rx="2" fill="#8B7355" opacity="0.8"/>
+  <!-- Steam lines (3 lines = 3 generations) -->
+  <path d="M170,145 Q165,120 175,100" fill="none" stroke="#8B7355" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M200,135 Q195,105 205,85" fill="none" stroke="#8B7355" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M230,145 Q225,120 235,100" fill="none" stroke="#8B7355" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <!-- Text -->
+  <text x="200" y="320" text-anchor="middle" font-family="serif" font-size="28" fill="#4A6FA5" font-weight="bold">風呂屋の匠</text>
+  <!-- Tagline -->
+  <text x="200" y="350" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">湯煙でつなぐ、まちの縁側</text>
+</svg>

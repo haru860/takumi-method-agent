@@ -1,0 +1,41 @@
+---
+name: verify-vm-compare-score
+description: 価値概念とIT要求・活動のスコア乖離検証結果の良い点・悪い点を分析し、改善のための問いを生成
+---
+
+# スコア乖離検証結果の検証
+
+**追加指示（引数）**: $ARGUMENTS
+
+**前提条件**:
+- `/vm-compare-score` が完了している
+- `output/vm-compare-score.md` が存在する
+
+**出力ファイル**: `output/verify-vm-compare-score-result.md`
+
+---
+
+## 実行手順
+
+### 手順1: スコア乖離検証結果の検証
+
+`Task` ツールで `VerifyVmCompareScore` エージェントを起動する。
+
+※ @common-procedures の「エージェント起動時の追加指示」を参照。
+
+### 手順2: 検証結果のファイル出力
+
+**【重要】エージェント完了後、検証結果を必ず以下のファイルに出力する**:
+
+`Write` ツールで以下を作成（@common-procedures の「検証結果出力の共通ルール」に従う）：
+
+- **ファイルパス**: `output/verify-vm-compare-score-result.md`
+- **内容**: エージェントが出力した検証結果（良い点・悪い点・改善点・改善のための問い）
+
+### 手順3: 出力確認
+
+@common-procedures の「出力確認手順」に従い、ファイルの存在を確認する。
+
+### 手順4: 完了報告
+
+@common-procedures の「完了報告」に従う。
