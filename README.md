@@ -85,7 +85,7 @@
 #### MSP(Minimum Sellable Product)の計画
 [samples/furoya-takumi/output/msp-plan.md](samples/furoya-takumi/output/msp-plan.md)
 
-#### 提案書
+#### 企画提案書（企画の最終成果物）
 [samples/furoya-takumi/output/proposal-format1.md](samples/furoya-takumi/output/proposal-format1.md)
 
 #### その他の成果物
