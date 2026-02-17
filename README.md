@@ -73,7 +73,7 @@ git clone <repository-url>
 cd <展開したルートディレクトリ>
 
 # 方法B: GitHubからZIPをダウンロードして展開
-# リポジトリページの「Code」→「Download ZIP」からダウンロードし、展開したフォルダに移動
+# トップページの「Code」（右上の緑のボタン）→Localタブの「Download ZIP」からダウンロードし、展開したフォルダに移動
 cd <展開したルートディレクトリ>
 
 # 2. Claude Codeにログインした状態で、ルートディレクトリをCLIのターミナルで開く
