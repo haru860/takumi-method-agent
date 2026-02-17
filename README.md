@@ -34,6 +34,59 @@
 
 - [匠Method Agentのプロセスフロー](docs/process-flow.drawio.png)
 
+## 出力サンプル
+
+テーマ：風呂屋の匠
+
+書籍、[匠Method: 〜新たな価値観でプロジェクトをデザインするために〜](https://amzn.asia/d/0diH5tAt) の第7章「匠Methodで商店街の風呂屋を復活させる」より抜粋。
+
+```
+長年、銭湯を経営している田中さんは最近、事業継続が不可能になるのではと悩んでいます。
+このままでは息子にバトンを渡すのが難しい。商店街ではそれなりにお客さんは入っていますが、何の特徴もないお風呂屋さんです。廃業か存続か、悩む日々。
+そんな悩みを町内会の皆さんに相談しました。
+すると「なんとか存続させたい」と、町内会の若手20名が一大決心して、田中さんを代表とする株式会社「風呂屋の匠」を設立しようという話になりました。
+```
+
+### 企画ファイル
+
+[企画の元となるファイル：samples/furoya-takumi/input/idea.md](samples/furoya-takumi/input/idea.md)
+
+### 匠Method Agentで自動生成された成果物
+
+#### ステークホルダーモデル
+<img src="samples/furoya-takumi/output/drawio/stakeholder.drawio.png" width="900" alt="ステークホルダーモデル">
+
+#### 価値デザインモデル
+<img src="samples/furoya-takumi/output/drawio/value-design.drawio.png" width="900" alt="価値デザインモデル">
+
+##### デザインロゴ
+<img src="samples/furoya-takumi/output/value-design-logo.svg" width="300" alt="デザインロゴ">
+
+#### 価値分析モデル
+<img src="samples/furoya-takumi/output/drawio/value-analysis.drawio.png" width="900" alt="価値分析モデル">
+
+#### 要求分析ツリー
+<img src="samples/furoya-takumi/output/drawio/requirement-tree.drawio.png" width="900" alt="要求分析ツリー">
+
+#### ビジネスコンテキストフロー
+<img src="samples/furoya-takumi/output/drawio/business-context-flow.drawio.png" width="900" alt="要求分析ツリー">
+
+#### ゴール記述モデル
+[samples/furoya-takumi/output/goal-description-model.tsv](samples/furoya-takumi/output/goal-description-model.tsv)
+
+#### 匠Method Value Metrics
+
+[価値概念とIT要求/活動のスコア比較：samples/furoya-takumi/output/vm-compare-score.md]
+
+#### MSP(Minimum Sellable Product)の計画
+[samples/furoya-takumi/output/msp-plan.md](samples/furoya-takumi/output/msp-plan.md)
+
+#### 提案書
+[samples/furoya-takumi/output/proposal-format1.md](samples/furoya-takumi/output/proposal-format1.md)
+
+#### その他の成果物
+- [samples/furoya-takumi/output配下](samples/furoya-takumi/output/)
+
 ## 対応OS
 
 Skillファイル内のファイル操作はClaude Codeの組み込みツール（Glob、Read、Write等）を使用しており、OS非依存で動作します。
@@ -503,50 +556,6 @@ AIがつくったモデルを深く検証せずに採用した場合、以下の
 2. **検証コマンド（verify）を活用し、モデルを批判的に見直す** — AIの指摘をヒントに、自分達の言葉で書き直す
 3. **ステークホルダーの声を聴き、モデルに反映する** — AIが想像で書いた価値記述を、現場の実感で上書きする
 4. **「自分達はなぜこの企画をやるのか」を問い続ける** — この問いに答えられないなら、モデルはまだ完成していない
-
-## サンプル
-### 風呂屋の匠
-
-#### 企画ファイル
-
-[企画の元となるファイル：samples/furoya-takumi/input/idea.md](samples/furoya-takumi/input/idea.md)
-
-#### 匠Method Agentで自動生成された成果物
-
-##### ステークホルダーモデル
-<img src="samples/furoya-takumi/output/drawio/stakeholder.drawio.png" width="900" alt="ステークホルダーモデル">
-
-##### 価値デザインモデル
-<img src="samples/furoya-takumi/output/drawio/value-design.drawio.png" width="900" alt="価値デザインモデル">
-
-###### デザインロゴ
-<img src="samples/furoya-takumi/output/value-design-logo.svg" width="300" alt="デザインロゴ">
-
-##### 価値分析モデル
-<img src="samples/furoya-takumi/output/drawio/value-analysis.drawio.png" width="900" alt="価値分析モデル">
-
-##### 要求分析ツリー
-<img src="samples/furoya-takumi/output/drawio/requirement-tree.drawio.png" width="900" alt="要求分析ツリー">
-
-##### ビジネスコンテキストフロー
-<img src="samples/furoya-takumi/output/drawio/business-context-flow.drawio.png" width="900" alt="要求分析ツリー">
-
-##### ゴール記述モデル
-[samples/furoya-takumi/output/goal-description-model.tsv](samples/furoya-takumi/output/goal-description-model.tsv)
-
-##### 匠Method Value Metrics
-
-[価値概念とIT要求/活動のスコア比較：samples/furoya-takumi/output/vm-compare-score.md]
-
-##### MSP(Minimum Sellable Product)
-[samples/furoya-takumi/output/msp-plan.md](samples/furoya-takumi/output/msp-plan.md)
-
-##### 提案書
-[samples/furoya-takumi/output/proposal-format1.md](samples/furoya-takumi/output/proposal-format1.md)
-
-##### その他の成果物
-- [samples/furoya-takumi/output配下](samples/furoya-takumi/output/)
-
 
 ## ライセンス
 
