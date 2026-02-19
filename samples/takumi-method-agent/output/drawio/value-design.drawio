@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" modified="2026-02-19T00:00:00.000Z" agent="匠Method AI Agent" version="21.0.0" type="device">
+  <diagram name="価値デザインモデル" id="value-design-model">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ビジョン -->
+        <mxCell id="vision" value="&amp;lt;&amp;lt;ビジョン&amp;gt;&amp;gt;&lt;br&gt;ビジネスへの思いを持つすべての人が、匠Methodで価値ある企画を創れる世界を実現する" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="184" y="40" width="800" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- コンセプト1: AI共創パートナーシップ -->
+        <mxCell id="concept1" value="&amp;lt;&amp;lt;AI共創パートナーシップ&amp;gt;&amp;gt;&lt;br&gt;企画者・ファシリテーターとAIが「相棒」として協働することで、人だけでは到達できなかった質の高い企画を実現する。AIはファシリテーターの代替ではなく、思考の言語化・整理・品質検証を担うパートナーとして機能し、人は本質的な価値創造と洞察に集中できる。" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="340" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- コンセプト2: 匠の知見の民主化 -->
+        <mxCell id="concept2" value="&amp;lt;&amp;lt;匠の知見の民主化&amp;gt;&amp;gt;&lt;br&gt;13年の実践で培われた匠Methodの深い知見をAIに体現させ、専門家でなくても誰もが匠Methodを正しく・自信を持って使える環境を提供する。個人でもチームでも、ビジネスの現場でも、匠の知見が常にそばにある状態をつくる。" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="414" y="160" width="340" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- コンセプト3: 思いから企画への可視化 -->
+        <mxCell id="concept3" value="&amp;lt;&amp;lt;思いから企画への可視化&amp;gt;&amp;gt;&lt;br&gt;ビジネスへの思いやアイデアを、匠Methodのモデルとして即座に構造化・可視化する。モデルを通じてビジネス価値をチームや意思決定者と共有でき、漠然とした思いが「形ある企画」として伝わる状態を実現する。" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="787" y="160" width="340" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- 言葉 -->
+        <mxCell id="catchcopy" value="&amp;lt;&amp;lt;言葉&amp;gt;&amp;gt;&lt;div&gt;あなたの思いを、価値ある企画へ。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="340" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 意味 -->
+        <mxCell id="meaning" value="&amp;lt;&amp;lt;意味&amp;gt;&amp;gt;&lt;div&gt;ビジネスを変えたい、社会に新しい価値を届けたいという思いを持つ人は多い。しかし現実には、その思いを体系的な企画として形にするための知識・スキル・時間が壁となり、多くの思いが企画として結実しないままに終わっている。匠Method AI Agentは、13年の実践で培われた匠Methodの知見をAIが体現することで、専門のファシリテーターがいなくても、個人の企画者からチームの企画担当者、組織の意思決定者まで、誰もがビジョン・コンセプト・価値分析・要求定義という一貫した思考の流れで企画を創れるようにする。これは単なる業務効率化ではなく、匠Methodという知的資産の民主化であり、企画立案という高度な営みをすべての人に開く試みだ。AIは人間の代わりに考えるのではなく、相棒として協働し、企画者の思いを受け止め、匠Methodのモデルとして即座に構造化・可視化する。思いが企画になり、企画が価値になり、価値が社会を変えるサイクルを、匠Method AI Agentが支え続ける。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="470" width="600" height="220" as="geometry" />
+        </mxCell>
+
+        <!-- ストーリー -->
+        <mxCell id="story" value="&amp;lt;&amp;lt;ストーリー&amp;gt;&amp;gt;&lt;div&gt;Step 1: 匠Methodの知見をAIに体現させ、コアエンジンを確立する。13年の実践で培われたノウハウ・判断基準・品質基準をAIエージェントに実装し、各フェーズを自動生成できる基盤を構築する。匠Methodの考案者・権利者との連携を通じ、知見の正確な再現性を担保する。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Step 2: 企画者一人ひとりが自律的に使えるツールとして提供を開始する。個人ビジネス企画者や法人チームの企画担当者が、専門ファシリテーターなしでも匠Methodを正しく使えるAIエージェントを公開する。企画案を入力するだけで一貫した企画書・モデル群が生成される体験を提供する。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Step 3: ファシリテーターとAIが協働するハイブリッドモデルを確立する。匠MethodファシリテーターがAIエージェントを「相棒」として活用し、より高品質な企画を短時間で実現できるワークフローを確立する。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Step 4: 企業の経営層・意思決定者が企画の質を確信できるエビデンスを提供する。匠Methodに基づく企画書・要求分析ツリー・価値指標を経営層向けに可視化し、意思決定を支援するアウトプットを自動生成する。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Step 5: 匠Methodを使う人・組織のコミュニティが育ち、知見が社会に広がる。AIエージェントを通じて匠Methodを体験した人がメソッドの思考プロセスを習得し、ビジネスへの思いを持つすべての人が価値ある企画を結実させられる世界が当たり前になる。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="680" y="350" width="447" height="340" as="geometry" />
+        </mxCell>
+
+        <!-- デザイン -->
+        <mxCell id="design" value="&lt;span style=&quot;text-align: left;&quot;&gt;&amp;lt;&amp;lt;デザイン&amp;gt;&amp;gt;&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;全体トーン: 「静謐な知的工房」。職人が精密な道具を扱うように、AIが匠の知見を丁寧に体現する空間。深みのある信頼感と思いを形にする創造の高揚感が共存する。&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;カラー: メイン=深藍(#1E2A4A)、アクセント=匠ゴールド(#C9A84C)、サブ=AIエメラルド(#2EC4B6)、ベース=オフホワイト(#F7F4EF)。&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;形: ノードとコネクション+筆のストローク。タイポグラフィ: 游ゴシック体/Noto Sans JP、Inter/Helvetica Neue。&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;ロゴコンセプト: 「思いが構造になる瞬間」。三つのノード(人間の思い・匠の知見・AIの力)が三角形に配置。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="730" width="600" height="250" as="geometry" />
+        </mxCell>
+
+        <!-- 矢印: ビジョン → コンセプト1 -->
+        <mxCell id="arrow-v-c1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;strokeColor=#b85450;" edge="1" source="vision" target="concept1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 矢印: ビジョン → コンセプト2 -->
+        <mxCell id="arrow-v-c2" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;strokeColor=#b85450;" edge="1" source="vision" target="concept2" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 矢印: ビジョン → コンセプト3 -->
+        <mxCell id="arrow-v-c3" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;strokeColor=#b85450;" edge="1" source="vision" target="concept3" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 矢印: コンセプト1 → 言葉 -->
+        <mxCell id="arrow-c1-w" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;strokeColor=#6c8ebf;" edge="1" source="concept1" target="catchcopy" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 矢印: コンセプト1 → 意味 -->
+        <mxCell id="arrow-c1-m" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;strokeColor=#6c8ebf;" edge="1" source="concept1" target="meaning" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 矢印: コンセプト2 → 意味 -->
+        <mxCell id="arrow-c2-m" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;strokeColor=#6c8ebf;" edge="1" source="concept2" target="meaning" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 矢印: コンセプト2 → ストーリー -->
+        <mxCell id="arrow-c2-s" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;strokeColor=#6c8ebf;" edge="1" source="concept2" target="story" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 矢印: コンセプト3 → ストーリー -->
+        <mxCell id="arrow-c3-s" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;strokeColor=#6c8ebf;" edge="1" source="concept3" target="story" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 矢印: コンセプト3 → デザイン -->
+        <mxCell id="arrow-c3-d" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;strokeColor=#6c8ebf;" edge="1" source="concept3" target="design" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

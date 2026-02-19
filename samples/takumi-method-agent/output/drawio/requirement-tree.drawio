@@ -1,0 +1,706 @@
+<mxfile host="app.diagrams.net" modified="2026-02-19T00:00:00.000Z" agent="匠Method AI Agent" version="21.0.0" type="device">
+  <diagram name="要求分析ツリー" id="requirement-tree">
+    <mxGraphModel dx="4999" dy="7999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="8000" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Column Headers -->
+        <mxCell id="header1" value="戦略要求" style="text;html=1;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="header2" value="業務要求" style="text;html=1;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="180" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="header3" value="IT要求" style="text;html=1;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="180" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="header4" value="活動" style="text;html=1;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="180" width="150" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Separator Lines -->
+        <mxCell id="sep1" value="" style="endArrow=none;dashed=1;strokeColor=#999999;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="210" as="sourcePoint"/>
+            <mxPoint x="990" y="7800" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sep2" value="" style="endArrow=none;dashed=1;strokeColor=#999999;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="210" as="sourcePoint"/>
+            <mxPoint x="1310" y="7800" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ===== VISION ===== -->
+        <mxCell id="V1" value="ビジネスへの思いを持つすべての人が、匠Methodで価値ある企画を創れる世界を実現する" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="3650" width="250" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== CONCEPTS ===== -->
+        <mxCell id="C1" value="AI共創パートナーシップ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1490" width="220" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="C2" value="匠の知見の民主化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="4270" width="220" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="C3" value="思いから企画への可視化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="6600" width="220" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== OBJECTIVES ===== -->
+        <mxCell id="OA" value="ファシリテーターの本質的対話への集中支援" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="385" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="OB" value="企画モデルから提案書・計画書までの一貫生成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="960" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="OC" value="生成AIプラットフォームとの連携による実用性・信頼性の実証" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1880" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="OD" value="品質基準に基づく自動検証・改善提案の提供" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="3030" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="OE" value="匠Methodの知見を誰でも活用できる民主化の実現" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="4065" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="OF" value="組織・チームへの匠Method均質浸透の支援" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="4870" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="OG" value="モデリング自動生成による企画プロセスの加速" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="5675" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="OH" value="ステップガイドによる次アクション・判断基準の明確化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="6480" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== BUSINESS REQUIREMENTS, IT REQUIREMENTS, ACTIVITIES ===== -->
+
+        <!-- BR A1 y=300 -->
+        <mxCell id="BRA1" value="AIがモデリング作業を代替し、ファシリテーターの業務負荷を軽減できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="300" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITA1" value="ファシリテーター業務自動化機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="300" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACA1" value="ファシリテーター役割再定義" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="300" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR A2 y=530 -->
+        <mxCell id="BRA2" value="ファシリテーターが顧客との本質的な対話に集中できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="530" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITA2" value="AIファシリテーション支援機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="530" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACA2" value="顧客対話ファシリテーション実践" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="530" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR B1 y=760 -->
+        <mxCell id="BRB1" value="企画モデルから提案書・計画書を一貫して自動生成できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="760" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITB1" value="企画書・計画書自動生成機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="760" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACB1" value="提案書・計画書生成後の人的レビュー" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="760" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR B2 y=990 -->
+        <mxCell id="BRB2" value="企画モデルをもとに企画提案書を迅速に生成できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="990" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITB2" value="提案書即時生成機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="990" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACB2" value="提案書即時生成後の顧客向け説明準備" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="990" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR B3 y=1220 -->
+        <mxCell id="BRB3" value="企画のROI・投資対効果を可視化し、経営層の意思決定を支援できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1220" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITB3" value="ROI・投資対効果可視化機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1220" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACB3" value="ROI試算・経営層向け説明対応" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1220" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR C1 y=1450 -->
+        <mxCell id="BRC1" value="AIエージェント開発・運用を通じて組織のAI技術力を蓄積できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1450" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITC1" value="AI技術スタック管理・ナレッジ共有機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1450" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACC1" value="AI技術内製化トレーニング" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1450" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR C2 y=1680 -->
+        <mxCell id="BRC2" value="AI活用の透明性・信頼性を確保し、経営層のAI導入リスクを低減できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1680" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITC2" value="AI処理透明性レポート機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1680" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACC2" value="AI活用透明性説明・経営層向けレポーティング" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1680" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR C3 y=1910 -->
+        <mxCell id="BRC3" value="生成AIプラットフォームのAPIを継続的・安定的に活用できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1910" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITC3" value="LLM API統合・フォールバック管理機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1910" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACC3" value="LLM APIベンダー選定・契約管理" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1910" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR C4 y=2140 -->
+        <mxCell id="BRC4" value="ビジネス企画モデリングにおける生成AI活用の実用ユースケースを確立できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="2140" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITC4" value="ユースケースライブラリ・事例蓄積機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="2140" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACC4" value="生成AI活用ユースケース検証・発信" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="2140" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR C5 y=2370 -->
+        <mxCell id="BRC5" value="生成AIモデルの改善に資するフィードバックを収集・提供できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="2370" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITC5" value="フィードバック収集・改善データ蓄積機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="2370" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACC5" value="ユーザーフィードバック収集・改善提案" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="2370" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR D1 y=2600 -->
+        <mxCell id="BRD1" value="成果物の品質基準を定義し、自動検証によって安定した品質を担保できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="2600" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITD1" value="品質自動検証機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="2600" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACD1" value="品質基準ドキュメント策定" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="2600" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR D2 y=2830 -->
+        <mxCell id="BRD2" value="成果物の品質評価結果をユーザーに分かりやすく可視化できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="2830" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITD2" value="品質評価可視化ダッシュボード" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="2830" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACD2" value="品質評価結果の説明・フォローアップ対応" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="2830" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR D3 y=3060 -->
+        <mxCell id="BRD3" value="AIが生成した企画モデルの品質をファシリテーターが確認・保証できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="3060" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITD3" value="AI生成成果物レビュー機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="3060" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACD3" value="AI生成成果物ファシリテーター承認フロー整備" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="3060" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR D4 y=3290 -->
+        <mxCell id="BRD4" value="AIエージェントが匠Methodを正確に体現した成果物を生成できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="3290" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITD4" value="匠Method正確性保証エンジン" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="3290" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACD4" value="匠Method正確性検証レビュー" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="3290" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR D5 y=3520 -->
+        <mxCell id="BRD5" value="匠Methodブランドの品質基準を維持・保護できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="3520" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITD5" value="ブランド品質ガイドライン検証機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="3520" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACD5" value="ブランド品質基準維持・監査" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="3520" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR E1 y=3750 -->
+        <mxCell id="BRE1" value="匠Methodの知見をツールとして外部に提供・流通させられること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="3750" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITE1" value="匠Methodナレッジ配信機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="3750" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACE1" value="匠Methodコンテンツ外部公開戦略立案" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="3750" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR E2 y=3980 -->
+        <mxCell id="BRE2" value="個人が単独で匠Methodの全フェーズを完結させられること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="3980" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITE2" value="シングルユーザー完結型ワークフロー機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="3980" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACE2" value="個人ユーザー向け利用ガイド整備" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="3980" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR E3 y=4210 -->
+        <mxCell id="BRE3" value="ファシリテーターが匠Methodをより多くの組織・個人に普及させられること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4210" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITE3" value="匠Method普及ダッシュボード機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="4210" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACE3" value="匠Method普及活動の企画・実施" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="4210" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR E4 y=4440 -->
+        <mxCell id="BRE4" value="ツールを通じて匠Methodを広く社会に普及・拡大できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4440" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITE4" value="外部普及・パブリッシュ機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="4440" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACE4" value="匠Method社会普及キャンペーン運営" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="4440" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR F1 y=4670 -->
+        <mxCell id="BRF1" value="複数メンバーが関与する企画モデリングの品質を統一できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4670" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITF1" value="品質統一テンプレート・スタイルガイド機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="4670" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACF1" value="チーム向けモデリング品質統一ルール策定" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="4670" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR F2 y=4900 -->
+        <mxCell id="BRF2" value="チームで作成した企画モデルを一元管理・共有できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4900" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITF2" value="チーム共有・共同編集機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="4900" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACF2" value="チーム企画モデル共有運用設計" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="4900" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR F3 y=5130 -->
+        <mxCell id="BRF3" value="組織全体に匠Methodを均質に浸透・定着させられること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="5130" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITF3" value="マルチテナント・組織管理機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="5130" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACF3" value="組織内匠Method定着支援活動" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="5130" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR G1 y=5360 -->
+        <mxCell id="BRG1" value="企画コンサル業務の工数を削減し、スループットを向上できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="5360" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITG1" value="DrawIOモデル可視化機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="5360" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACG1" value="コンサル業務プロセス標準化" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="5360" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR G2 y=5590 -->
+        <mxCell id="BRG2" value="企画アイデアを入力すると即時にモデルを生成できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="5590" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITG2" value="モデル自動生成エンジン" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="5590" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACG2" value="企画アイデア入力レビュー運用" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="5590" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR G3 y=5820 -->
+        <mxCell id="BRG3" value="通常業務と並行して企画プロセスを非同期に進められること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="5820" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITG3" value="非同期バッチ処理機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="5820" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACG3" value="非同期作業ルール・コミュニケーション設計" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="5820" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR G4 y=6050 -->
+        <mxCell id="BRG4" value="AIの活用により、ファシリテーターが同時対応できる案件数を拡大できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="6050" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITG4" value="多案件並行管理・スケーリング機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="6050" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACG4" value="多案件並行対応体制構築" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="6050" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR H1 y=6280 -->
+        <mxCell id="BRH1" value="ツールの利用を通じて匠Methodを学習・習熟できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="6280" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITH1" value="匠Method学習コンテンツ連携機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="6280" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACH1" value="匠Method学習カリキュラム設計" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="6280" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR H2 y=6510 -->
+        <mxCell id="BRH2" value="各フェーズ・ステップで何を判断すべきかのガイダンスを提供できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="6510" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITH2" value="ステップガイダンス表示機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="6510" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACH2" value="フェーズ別判断ガイダンス設計" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="6510" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- BR H3 y=6740 -->
+        <mxCell id="BRH3" value="企画プロセスの進行管理をAIが支援し、ファシリテーターの管理負荷を削減できること" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="6740" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ITH3" value="進行管理・プロセストラッキング機能" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="6740" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACH3" value="案件進行状況レビュー会議運営" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="6740" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== ARROWS: Concept -> Vision ===== -->
+        <mxCell id="eC1V" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="C1" target="V1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eC2V" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="C2" target="V1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eC3V" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="C3" target="V1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== ARROWS: Objective -> Concept ===== -->
+        <mxCell id="eOAC1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="OA" target="C1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eOBC1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="OB" target="C1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eOCC1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="OC" target="C1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eODC2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="OD" target="C2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eOEC2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="OE" target="C2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eOFC2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="OF" target="C2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eOGC3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="OG" target="C3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eOHC3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="OH" target="C3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== ARROWS: Business Requirement -> Objective ===== -->
+        <mxCell id="eBRA1OA" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRA1" target="OA" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRA2OA" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRA2" target="OA" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRB1OB" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRB1" target="OB" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRB2OB" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRB2" target="OB" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRB3OB" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRB3" target="OB" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRC1OC" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRC1" target="OC" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRC2OC" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRC2" target="OC" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRC3OC" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRC3" target="OC" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRC4OC" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRC4" target="OC" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRC5OC" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRC5" target="OC" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRD1OD" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRD1" target="OD" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRD2OD" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRD2" target="OD" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRD3OD" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRD3" target="OD" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRD4OD" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRD4" target="OD" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRD5OD" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRD5" target="OD" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRE1OE" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRE1" target="OE" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRE2OE" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRE2" target="OE" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRE3OE" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRE3" target="OE" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRE4OE" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRE4" target="OE" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRF1OF" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRF1" target="OF" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRF2OF" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRF2" target="OF" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRF3OF" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRF3" target="OF" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRG1OG" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRG1" target="OG" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRG2OG" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRG2" target="OG" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRG3OG" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRG3" target="OG" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRG4OG" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRG4" target="OG" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRH1OH" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRH1" target="OH" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRH2OH" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRH2" target="OH" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eBRH3OH" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="BRH3" target="OH" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== ARROWS: IT Requirement -> Business Requirement ===== -->
+        <mxCell id="eITA1BRA1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITA1" target="BRA1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITA2BRA2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITA2" target="BRA2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITB1BRB1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITB1" target="BRB1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITB2BRB2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITB2" target="BRB2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITB3BRB3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITB3" target="BRB3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITC1BRC1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITC1" target="BRC1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITC2BRC2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITC2" target="BRC2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITC3BRC3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITC3" target="BRC3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITC4BRC4" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITC4" target="BRC4" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITC5BRC5" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITC5" target="BRC5" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITD1BRD1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITD1" target="BRD1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITD2BRD2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITD2" target="BRD2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITD3BRD3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITD3" target="BRD3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITD4BRD4" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITD4" target="BRD4" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITD5BRD5" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITD5" target="BRD5" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITE1BRE1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITE1" target="BRE1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITE2BRE2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITE2" target="BRE2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITE3BRE3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITE3" target="BRE3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITE4BRE4" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITE4" target="BRE4" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITF1BRF1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITF1" target="BRF1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITF2BRF2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITF2" target="BRF2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITF3BRF3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITF3" target="BRF3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITG1BRG1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITG1" target="BRG1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITG2BRG2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITG2" target="BRG2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITG3BRG3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITG3" target="BRG3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITG4BRG4" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITG4" target="BRG4" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITH1BRH1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITH1" target="BRH1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITH2BRH2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITH2" target="BRH2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eITH3BRH3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ITH3" target="BRH3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== ARROWS: Activity -> Business Requirement ===== -->
+        <mxCell id="eACA1BRA1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACA1" target="BRA1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACA2BRA2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACA2" target="BRA2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACB1BRB1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACB1" target="BRB1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACB2BRB2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACB2" target="BRB2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACB3BRB3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACB3" target="BRB3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACC1BRC1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACC1" target="BRC1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACC2BRC2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACC2" target="BRC2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACC3BRC3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACC3" target="BRC3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACC4BRC4" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACC4" target="BRC4" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACC5BRC5" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACC5" target="BRC5" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACD1BRD1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACD1" target="BRD1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACD2BRD2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACD2" target="BRD2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACD3BRD3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACD3" target="BRD3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACD4BRD4" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACD4" target="BRD4" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACD5BRD5" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACD5" target="BRD5" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACE1BRE1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACE1" target="BRE1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACE2BRE2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACE2" target="BRE2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACE3BRE3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACE3" target="BRE3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACE4BRE4" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACE4" target="BRE4" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACF1BRF1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACF1" target="BRF1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACF2BRF2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACF2" target="BRF2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACF3BRF3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACF3" target="BRF3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACG1BRG1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACG1" target="BRG1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACG2BRG2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACG2" target="BRG2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACG3BRG3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACG3" target="BRG3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACG4BRG4" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACG4" target="BRG4" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACH1BRH1" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACH1" target="BRH1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACH2BRH2" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACH2" target="BRH2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eACH3BRH3" style="edgeStyle=none;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" source="ACH3" target="BRH3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

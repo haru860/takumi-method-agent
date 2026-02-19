@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="30%">
+      <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="200" height="200" rx="24" fill="#1E2A4A"/>
+  <!-- Center glow -->
+  <circle cx="100" cy="100" r="60" fill="url(#centerGlow)"/>
+  <!-- Connection lines (AI Emerald) -->
+  <line x1="100" y1="45" x2="55" y2="135" stroke="#2EC4B6" stroke-width="2" stroke-opacity="0.7"/>
+  <line x1="100" y1="45" x2="145" y2="135" stroke="#2EC4B6" stroke-width="2" stroke-opacity="0.7"/>
+  <line x1="55" y1="135" x2="145" y2="135" stroke="#2EC4B6" stroke-width="2" stroke-opacity="0.7"/>
+  <!-- Top node: Human's Thought (Gold) -->
+  <circle cx="100" cy="45" r="14" fill="#1E2A4A" stroke="#C9A84C" stroke-width="2.5"/>
+  <circle cx="100" cy="45" r="6" fill="#C9A84C"/>
+  <!-- Bottom-left node: Takumi's Wisdom (Gold) -->
+  <circle cx="55" cy="135" r="14" fill="#1E2A4A" stroke="#C9A84C" stroke-width="2.5"/>
+  <circle cx="55" cy="135" r="6" fill="#C9A84C"/>
+  <!-- Bottom-right node: AI Power (Emerald) -->
+  <circle cx="145" cy="135" r="14" fill="#1E2A4A" stroke="#2EC4B6" stroke-width="2.5"/>
+  <circle cx="145" cy="135" r="6" fill="#2EC4B6"/>
+  <!-- Center symbol -->
+  <circle cx="100" cy="105" r="8" fill="#C9A84C" fill-opacity="0.9"/>
+  <!-- Text -->
+  <text x="100" y="178" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="bold" fill="#F7F4EF" letter-spacing="2">TMA</text>
+</svg>

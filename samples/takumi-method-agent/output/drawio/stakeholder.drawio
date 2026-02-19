@@ -1,0 +1,241 @@
+<mxfile host="app.diagrams.net" modified="2026-02-19T00:00:00.000Z" agent="匠Method Agent" version="21.0.0">
+  <diagram name="ステークホルダーモデル" id="stakeholder-model">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- タイトル -->
+        <mxCell id="title" value="ステークホルダーモデル　―　匠Method Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="20" width="700" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- グループ：ツール利用者 -->
+        <mxCell id="group_users" value="ツール利用者" style="swimlane;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=13;fontStyle=1;align=left;verticalAlign=top;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="760" height="680" as="geometry" />
+        </mxCell>
+
+        <!-- グループ：外部関係者 -->
+        <mxCell id="group_external" value="外部関係者" style="swimlane;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=13;fontStyle=1;align=left;verticalAlign=top;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="80" width="560" height="680" as="geometry" />
+        </mxCell>
+
+        <!-- アクター：株式会社ビープラウド（中央） -->
+        <mxCell id="actor_bepro" value="株式会社&lt;br&gt;ビープラウド&lt;br&gt;（自社）" style="shape=mxgraph.uml2.actor;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="870" y="320" width="60" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- アクター：個人ビジネス企画者 -->
+        <mxCell id="actor_individual" value="個人ビジネス&lt;br&gt;企画者" style="shape=mxgraph.uml2.actor;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="group_users">
+          <mxGeometry x="100" y="140" width="60" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- アクター：法人チームの企画担当者 -->
+        <mxCell id="actor_team" value="法人チームの&lt;br&gt;企画担当者" style="shape=mxgraph.uml2.actor;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="group_users">
+          <mxGeometry x="100" y="380" width="60" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- アクター：匠Methodファシリテーター -->
+        <mxCell id="actor_facilitator" value="匠Method&lt;br&gt;ファシリテーター" style="shape=mxgraph.uml2.actor;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="group_users">
+          <mxGeometry x="100" y="570" width="60" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- アクター：匠Methodの考案者・権利者 -->
+        <mxCell id="actor_creator" value="匠Methodの&lt;br&gt;考案者・権利者" style="shape=mxgraph.uml2.actor;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" vertex="1" parent="group_external">
+          <mxGeometry x="80" y="140" width="60" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- アクター：企業の経営層・意思決定者 -->
+        <mxCell id="actor_exec" value="企業の経営層・&lt;br&gt;意思決定者" style="shape=mxgraph.uml2.actor;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="group_external">
+          <mxGeometry x="80" y="380" width="60" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- アクター：生成AIプラットフォーム提供者 -->
+        <mxCell id="actor_ai_platform" value="生成AI&lt;br&gt;プラットフォーム&lt;br&gt;提供者" style="shape=mxgraph.uml2.actor;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#666666;fontSize=12;" vertex="1" parent="group_external">
+          <mxGeometry x="380" y="260" width="60" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 問題意識：株式会社ビープラウド -->
+        <mxCell id="note_bepro_1" value="ファシリテーターの負荷軽減を&lt;br&gt;AIで実現する技術的難易度がある" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;size=15;" vertex="1" parent="1">
+          <mxGeometry x="690" y="130" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="note_bepro_2" value="匠Methodの知見をAIに正確に&lt;br&gt;反映させる品質担保が必要" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;size=15;" vertex="1" parent="1">
+          <mxGeometry x="910" y="130" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="note_bepro_3" value="企画コンサルティング業務の&lt;br&gt;生産性向上と外部提供の両立" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="130" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 問題意識：個人ビジネス企画者 -->
+        <mxCell id="note_individual_1" value="企画案の具体的な&lt;br&gt;進め方がわからない" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note_individual_2" value="匠Methodを自分一人で&lt;br&gt;進められるか不安がある" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note_individual_3" value="各ステップの品質基準が&lt;br&gt;判断しにくい" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note_individual_4" value="モデリングに割ける時間や&lt;br&gt;リソースが不足している" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="170" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- 問題意識：法人チームの企画担当者 -->
+        <mxCell id="note_team_1" value="チームで匠Methodを進める際の&lt;br&gt;進行管理が煩雑" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note_team_2" value="モデルの品質をチーム全体で&lt;br&gt;統一しにくい" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note_team_3" value="各ステップで何をすべきか&lt;br&gt;判断基準が不明確" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note_team_4" value="業務の傍らモデリングに&lt;br&gt;充てるリソースが不足している" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="630" width="180" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- 問題意識：匠Methodファシリテーター -->
+        <mxCell id="note_facilitator_1" value="モデリングの進行管理に&lt;br&gt;大きな負荷がかかっている" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;size=15;" vertex="1" parent="1">
+          <mxGeometry x="280" y="700" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note_facilitator_2" value="生成モデルの品質担保に&lt;br&gt;時間と労力を要する" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;size=15;" vertex="1" parent="1">
+          <mxGeometry x="490" y="700" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note_facilitator_3" value="モデル作成の手間により本質的な&lt;br&gt;価値創造に集中できない" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;size=15;" vertex="1" parent="1">
+          <mxGeometry x="700" y="700" width="200" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- 問題意識：匠Methodの考案者・権利者 -->
+        <mxCell id="note_creator_1" value="メソッドの正確性・品質が&lt;br&gt;AIツールによって損なわれるリスク" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="130" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="note_creator_2" value="ツールの誤った使われ方による&lt;br&gt;ブランド毀損の可能性がある" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="130" width="210" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 問題意識：企業の経営層・意思決定者 -->
+        <mxCell id="note_exec_1" value="投資対効果（ROI）の&lt;br&gt;見通しが立てにくい" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="380" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note_exec_2" value="新技術（AI）導入への&lt;br&gt;リスクや不安がある" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="380" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note_exec_3" value="匠Methodの価値を組織内に&lt;br&gt;浸透させることが難しい" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="450" width="190" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- 問題意識：生成AIプラットフォーム提供者 -->
+        <mxCell id="note_ai_1" value="APIのコスト変動が&lt;br&gt;ツール提供コストに影響する" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#f0f0f0;strokeColor=#666666;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="560" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note_ai_2" value="モデルのアップデートによる&lt;br&gt;出力品質の変動が起きる" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#f0f0f0;strokeColor=#666666;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="630" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note_ai_3" value="利用規約の変更が&lt;br&gt;ビジネスモデルに影響する可能性" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;fillColor=#f0f0f0;strokeColor=#666666;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="700" width="200" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- 問題意識とステークホルダーの関連線（点線） -->
+        <mxCell id="edge_bepro_note1" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_bepro" target="note_bepro_1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bepro_note2" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_bepro" target="note_bepro_2" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bepro_note3" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_bepro" target="note_bepro_3" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_individual_note1" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_individual" target="note_individual_1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_individual_note2" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_individual" target="note_individual_2" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_individual_note3" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_individual" target="note_individual_3" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_individual_note4" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_individual" target="note_individual_4" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_team_note1" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_team" target="note_team_1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_team_note2" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_team" target="note_team_2" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_team_note3" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_team" target="note_team_3" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_team_note4" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_team" target="note_team_4" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_facilitator_note1" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_facilitator" target="note_facilitator_1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_facilitator_note2" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_facilitator" target="note_facilitator_2" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_facilitator_note3" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_facilitator" target="note_facilitator_3" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_creator_note1" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_creator" target="note_creator_1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_creator_note2" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_creator" target="note_creator_2" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_exec_note1" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_exec" target="note_exec_1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_exec_note2" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_exec" target="note_exec_2" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_exec_note3" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_exec" target="note_exec_3" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_ai_note1" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_ai_platform" target="note_ai_1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_ai_note2" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_ai_platform" target="note_ai_2" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_ai_note3" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=none;strokeColor=#000000;" edge="1" source="actor_ai_platform" target="note_ai_3" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ステークホルダー同士の関連線 -->
+        <mxCell id="edge_bepro_individual" value="ツール提供・企画支援" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;strokeColor=#333333;" edge="1" source="actor_bepro" target="actor_individual" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bepro_team" value="ツール提供・導入支援" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;strokeColor=#333333;" edge="1" source="actor_bepro" target="actor_team" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bepro_facilitator" value="負荷軽減・業務支援" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;strokeColor=#333333;" edge="1" source="actor_bepro" target="actor_facilitator" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bepro_creator" value="メソッド利用・普及協力" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;strokeColor=#333333;" edge="1" source="actor_bepro" target="actor_creator" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bepro_ai" value="API利用・技術連携" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;strokeColor=#333333;" edge="1" source="actor_bepro" target="actor_ai_platform" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_individual_facilitator" value="ファシリテーション依頼" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;strokeColor=#333333;" edge="1" source="actor_individual" target="actor_facilitator" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_team_exec" value="導入承認・予算確保" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;strokeColor=#333333;" edge="1" source="actor_team" target="actor_exec" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_facilitator_creator" value="メソッド習得・実践" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;strokeColor=#333333;" edge="1" source="actor_facilitator" target="actor_creator" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
