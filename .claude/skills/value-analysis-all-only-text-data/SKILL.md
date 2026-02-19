@@ -14,3 +14,5 @@ Skill toolを使用して `value-analysis-value-description` を実行する。
 
 Skill toolを使用して `value-analysis-objective` を実行する。
 
+Skill toolを使用して `value-analysis-relation` を実行する。
+

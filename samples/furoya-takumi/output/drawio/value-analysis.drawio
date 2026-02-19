@@ -1,194 +1,164 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" modified="2026-02-17T00:00:00.000Z" agent="TakumiMethod Agent" version="24.0.0">
+<mxfile host="app.diagrams.net" modified="2026-02-19T00:00:00.000Z" agent="TakumiMethod Agent" version="24.0.0">
   <diagram name="価値分析モデル" id="value-analysis-model">
-    <mxGraphModel dx="2400" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1400" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
 
-        <!-- ステークホルダー（最上部、UMLアクター） -->
-        <!-- 地方自治体 -->
-        <mxCell id="stakeholder-1" value="地方自治体" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="100" y="50" width="60" height="120" as="geometry"/>
+        <!-- ===== ステークホルダー ===== -->
+        <mxCell id="sh1" value="地方自治体" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sh2" value="近隣地域からの&#xa;来訪者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sh3" value="田中さんの息子&#xa;（事業承継候補者）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="540" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sh4" value="田中さん&#xa;（創業者・代表者）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="760" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sh5" value="町内会の若手20名&#xa;（出資者・協力者）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="980" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sh6" value="地元町内の住民" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sh7" value="株式会社「風呂屋の匠」&#xa;（自社）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="20" width="30" height="60" as="geometry" />
         </mxCell>
 
-        <!-- 近隣地域からの来訪者 -->
-        <mxCell id="stakeholder-2" value="近隣地域からの&#xa;来訪者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="400" y="50" width="60" height="120" as="geometry"/>
+        <!-- ===== 地方自治体の価値記述 ===== -->
+        <mxCell id="vd1" value="G. 銭湯復活が来客数・雇用・地域コミュニティ形成などの指標で示される成果を生み出し、地域活性化施策として具体的な貢献度を評価・報告できて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#FCE4EC;strokeColor=#F06292;" vertex="1" parent="1">
+          <mxGeometry x="15" y="140" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd2" value="G. 若手出資者・創業者・地域住民が一体となった銭湯復活の取り組みが、官民連携モデルとして自治体内外に発信できて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#FCE4EC;strokeColor=#F06292;" vertex="1" parent="1">
+          <mxGeometry x="15" y="240" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd3" value="G. 銭湯の経営指標や地域交流の実態が定期的に共有される仕組みがあり、支援の継続可否を根拠を持って判断できて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#FCE4EC;strokeColor=#F06292;" vertex="1" parent="1">
+          <mxGeometry x="15" y="340" width="200" height="90" as="geometry" />
         </mxCell>
 
-        <!-- 田中さんの息子（事業承継候補者） -->
-        <mxCell id="stakeholder-3" value="田中さんの息子&#xa;（事業承継候補者）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="700" y="50" width="60" height="120" as="geometry"/>
+        <!-- ===== 近隣地域からの来訪者の価値記述 ===== -->
+        <mxCell id="vd4" value="C. 「湯煙でつなぐ、まちの縁側」というコンセプトを体感できる独自の雰囲気と温かみに触れ、遠方から足を運んだ甲斐があると感じられて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#F3E5F5;strokeColor=#AB47BC;" vertex="1" parent="1">
+          <mxGeometry x="235" y="140" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5" value="I. SNSや口コミで「風呂屋の匠」の魅力や独自の特徴を事前に知ることができ、訪問前から期待感を持って来店できて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#FDECEA;strokeColor=#EF5350;" vertex="1" parent="1">
+          <mxGeometry x="235" y="240" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd6" value="C. 地元の銭湯より少し高くても、改装された空間・独自の体験・地域コミュニティの雰囲気によって「この価格で来る価値がある」と納得できて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#F3E5F5;strokeColor=#AB47BC;" vertex="1" parent="1">
+          <mxGeometry x="235" y="340" width="200" height="90" as="geometry" />
         </mxCell>
 
-        <!-- 田中さん（創業者・代表者） -->
-        <mxCell id="stakeholder-4" value="田中さん&#xa;（創業者・代表者）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="50" width="60" height="120" as="geometry"/>
+        <!-- ===== 田中さんの息子の価値記述 ===== -->
+        <mxCell id="vd7" value="F. 改装と若手20名のサポートによって銭湯が安定した収益と社会的価値を確立し、「引き継ぐ価値がある」と確信できて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#E0F2F1;strokeColor=#26A69A;" vertex="1" parent="1">
+          <mxGeometry x="455" y="140" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd8" value="F. 若手20名との協力体制の中で銭湯経営を学びながら段階的に責任を持てる環境が整い、自信を持って経営者への道を歩めて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#E0F2F1;strokeColor=#26A69A;" vertex="1" parent="1">
+          <mxGeometry x="455" y="240" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd9" value="H. 同世代の若手や出資者仲間と連携しながら地域に貢献する経営に携わることで、充実感ある仕事として銭湯を選べて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ECEFF1;strokeColor=#78909C;" vertex="1" parent="1">
+          <mxGeometry x="455" y="340" width="200" height="90" as="geometry" />
         </mxCell>
 
-        <!-- 町内会の若手20名（出資者・協力者） -->
-        <mxCell id="stakeholder-5" value="町内会の若手20名&#xa;（出資者・協力者）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="50" width="60" height="120" as="geometry"/>
+        <!-- ===== 田中さんの価値記述 ===== -->
+        <mxCell id="vd10" value="J. 若手20名の出資と改装によって事業継続の危機を乗り越え、長年守り続けた銭湯が廃業せずに済んで心から安堵できて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#E6F7F4;strokeColor=#4DB6AC;" vertex="1" parent="1">
+          <mxGeometry x="675" y="140" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd11" value="F. 魅力ある銭湯として生まれ変わり将来性が見えることで、息子が自信を持って引き継げる形が整い、親として安心して任せられて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#E0F2F1;strokeColor=#26A69A;" vertex="1" parent="1">
+          <mxGeometry x="675" y="240" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd12" value="J. 若手20名が一緒に銭湯を盛り上げてくれることで孤独な経営プレッシャーから解放され、共に歩む仲間がいる心強さを感じられて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#E6F7F4;strokeColor=#4DB6AC;" vertex="1" parent="1">
+          <mxGeometry x="675" y="340" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd13" value="J. 改装後の銭湯に活気と笑顔が戻り、「自分が続けてきた銭湯がこんなに素敵になった」という誇りと達成感を感じられて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#E6F7F4;strokeColor=#4DB6AC;" vertex="1" parent="1">
+          <mxGeometry x="675" y="440" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd14" value="J. 銭湯が地域コミュニティの中心として認められ、「田中さんのおかげで銭湯が残った」と地域から感謝される喜びを実感できて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#E6F7F4;strokeColor=#4DB6AC;" vertex="1" parent="1">
+          <mxGeometry x="675" y="540" width="200" height="90" as="geometry" />
         </mxCell>
 
-        <!-- 地元町内の住民 -->
-        <mxCell id="stakeholder-6" value="地元町内の住民" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="50" width="60" height="120" as="geometry"/>
+        <!-- ===== 町内会の若手20名の価値記述 ===== -->
+        <mxCell id="vd15" value="E. 売上・来客数などの経営指標が改善傾向を示すことで、出資した資金が着実に回収される見通しが立ち、安心感を得られて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#FFF8E1;strokeColor=#FFD54F;" vertex="1" parent="1">
+          <mxGeometry x="895" y="140" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd16" value="G. 銭湯が地域のシンボルとして賑わいを取り戻す様子を目の当たりにし、「自分たちが町を救った」という誇りと達成感を感じられて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#FCE4EC;strokeColor=#F06292;" vertex="1" parent="1">
+          <mxGeometry x="895" y="240" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd17" value="H. 経営や地域ビジネスのノウハウを実践の場で習得でき、若手として地域課題解決に挑戦した経験がキャリアや将来につながって嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ECEFF1;strokeColor=#78909C;" vertex="1" parent="1">
+          <mxGeometry x="895" y="340" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd18" value="B. 同じ目標に向かって取り組む仲間との連帯感が深まり、プロジェクトを通じて20名の間に強いコミュニティが生まれて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#FFF3E0;strokeColor=#FFA726;" vertex="1" parent="1">
+          <mxGeometry x="895" y="440" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd19" value="H. 若手の行動が銭湯復活という実際の成果を生み出し、地域社会に対して意味ある貢献ができるという影響力を実感できて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ECEFF1;strokeColor=#78909C;" vertex="1" parent="1">
+          <mxGeometry x="895" y="540" width="200" height="90" as="geometry" />
         </mxCell>
 
-        <!-- 株式会社「風呂屋の匠」（自社） -->
-        <mxCell id="stakeholder-7" value="株式会社&#xa;「風呂屋の匠」&#xa;（自社）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="2100" y="50" width="60" height="120" as="geometry"/>
+        <!-- ===== 地元町内の住民の価値記述 ===== -->
+        <mxCell id="vd20" value="A. 自宅にお風呂があっても「あそこに行けば誰かに会える」という安心感があり、気軽に立ち寄れる第三の居場所が近所にできて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#E3F2FD;strokeColor=#42A5F5;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="140" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd21" value="B. 子どもから高齢者まで自然に顔を合わせられる場として銭湯が機能し、世代間のつながりが湯煙の中で生まれて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#FFF3E0;strokeColor=#FFA726;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="240" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd22" value="D. 改装によって生まれ変わった銭湯が町のシンボルとして認められ、「うちの町にはこんな銭湯がある」と誇れる存在になって嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#E8F5E9;strokeColor=#66BB6A;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="340" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd23" value="C. スーパー銭湯に比べて通いやすい価格でありながら、改装された清潔で心地よい環境で入浴でき、日常の疲れを癒せて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#F3E5F5;strokeColor=#AB47BC;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="440" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd24" value="A. 週に数回銭湯に立ち寄ることが自然な生活習慣となり、毎日の暮らしに小さな楽しみとメリハリが生まれて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#E3F2FD;strokeColor=#42A5F5;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="540" width="200" height="90" as="geometry" />
         </mxCell>
 
-        <!-- 価値記述 -->
-        <!-- 地方自治体の価値記述（F系） -->
-        <mxCell id="value-1" value="F.&#xa;地域活性化の&#xa;成功モデル確立により&#xa;他地域にも展開可能な&#xa;モデルを得られて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#006064;align=center;" vertex="1" parent="1">
-          <mxGeometry x="30" y="250" width="200" height="100" as="geometry"/>
+        <!-- ===== 株式会社「風呂屋の匠」（自社）の価値記述 ===== -->
+        <mxCell id="vd25" value="E. 魅力的なコミュニティ湯処として地元住民に愛される銭湯へ変革することで、月間売上500万円を継続的に達成できて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#FFF8E1;strokeColor=#FFD54F;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="140" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd26" value="E. 約500万円の改装によって客足・客単価・リピート率が目に見えて向上し、投資対効果を実感できて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#FFF8E1;strokeColor=#FFD54F;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="240" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd27" value="G. 地域活性化への貢献実績を積み上げることで、行政から町おこしプロジェクトとして認定され、認知度と信頼が高まって嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#FCE4EC;strokeColor=#F06292;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="340" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd28" value="F. 地域に不可欠なコミュニティの場として確固たる価値を確立することで、次世代が誇りを持って引き継げる銭湯となって嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#E0F2F1;strokeColor=#26A69A;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="440" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vd29" value="D. 「湯煙でつなぐ、まちの縁側」というコンセプトを体現した唯一無二の銭湯として地域に定着し、独自の存在感を確立できて嬉しい" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#E8F5E9;strokeColor=#66BB6A;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="540" width="200" height="90" as="geometry" />
         </mxCell>
 
-        <mxCell id="value-2" value="F.&#xa;継続的な成果の&#xa;モニタリング体制により&#xa;適切な政策判断が&#xa;できて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#006064;align=center;" vertex="1" parent="1">
-          <mxGeometry x="30" y="370" width="200" height="100" as="geometry"/>
+        <!-- ===== 目的 ===== -->
+        <mxCell id="objA" value="A. 地域の居場所としての&#xa;銭湯の確立" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#42A5F5;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="700" width="155" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="value-3" value="F.&#xa;地域コミュニティ強化により&#xa;住みやすい町づくりの&#xa;拠点が確立されて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#006064;align=center;" vertex="1" parent="1">
-          <mxGeometry x="30" y="490" width="200" height="100" as="geometry"/>
+        <mxCell id="objB" value="B. 世代を超えた&#xa;交流の場の創出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FFA726;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="700" width="155" height="60" as="geometry" />
         </mxCell>
-
-        <!-- 近隣地域からの来訪者の価値記述（D系、C系、H系） -->
-        <mxCell id="value-4" value="D.&#xa;コミュニティ湯処として&#xa;一般的な銭湯では得られない&#xa;わざわざ来る価値を&#xa;実感できて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;align=center;" vertex="1" parent="1">
-          <mxGeometry x="330" y="250" width="200" height="100" as="geometry"/>
+        <mxCell id="objC" value="C. 魅力的な&#xa;入浴体験の提供" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#AB47BC;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="700" width="155" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="value-5" value="C.&#xa;スーパー銭湯より安い価格で&#xa;コストパフォーマンスの高い&#xa;癒しスポットを&#xa;見つけられて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#4A148C;align=center;" vertex="1" parent="1">
-          <mxGeometry x="330" y="370" width="200" height="100" as="geometry"/>
+        <mxCell id="objD" value="D. 地域ブランドとしての&#xa;銭湯の確立" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#66BB6A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="700" width="155" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="value-6" value="H.&#xa;SNSや口コミで魅力を知り&#xa;銭湯文化に興味を持ち&#xa;新しい体験ができて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#37474F;align=center;" vertex="1" parent="1">
-          <mxGeometry x="330" y="490" width="200" height="100" as="geometry"/>
+        <mxCell id="objE" value="E. 安定収益モデルの&#xa;構築" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#FFD54F;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="700" width="155" height="60" as="geometry" />
         </mxCell>
-
-        <!-- 田中さんの息子の価値記述（E系） -->
-        <mxCell id="value-7" value="E.&#xa;持続可能で&#xa;やりがいのある事業として&#xa;承継する価値と将来性を&#xa;確信できて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#F57F17;align=center;" vertex="1" parent="1">
-          <mxGeometry x="630" y="250" width="200" height="100" as="geometry"/>
+        <mxCell id="objF" value="F. 次世代への誇りある&#xa;事業承継の実現" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#26A69A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="700" width="155" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="value-8" value="E.&#xa;実践を通じて&#xa;銭湯経営のノウハウを学び&#xa;自信を持って引き継げる&#xa;スキルを身につけられて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#F57F17;align=center;" vertex="1" parent="1">
-          <mxGeometry x="630" y="370" width="200" height="100" as="geometry"/>
+        <mxCell id="objG" value="G. 地域活性化への&#xa;貢献の可視化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#F06292;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="700" width="155" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="value-9" value="E.&#xa;新コンセプトで&#xa;地域に貢献する銭湯を創り&#xa;次世代経営者として&#xa;使命感とやりがいを得られて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#F57F17;align=center;" vertex="1" parent="1">
-          <mxGeometry x="630" y="490" width="200" height="100" as="geometry"/>
+        <mxCell id="objH" value="H. 地域住民・出資者の&#xa;参画意識の醸成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#78909C;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="700" width="155" height="60" as="geometry" />
         </mxCell>
-
-        <!-- 田中さん（創業者）の価値記述（E系、G系、H系） -->
-        <mxCell id="value-10" value="E.&#xa;若手の協力と新イメージ確立で&#xa;息子が承継する価値ある事業として&#xa;安心してバトンを渡せる&#xa;環境が整って嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#F57F17;align=center;" vertex="1" parent="1">
-          <mxGeometry x="930" y="250" width="200" height="110" as="geometry"/>
+        <mxCell id="objI" value="I. 銭湯の認知拡大と&#xa;新規集客の実現" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDECEA;strokeColor=#EF5350;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="700" width="155" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="value-11" value="E.&#xa;持続可能なモデルと&#xa;月間500万円の売上達成により&#xa;廃業の危機から脱却し&#xa;存続の道筋が見えて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#F57F17;align=center;" vertex="1" parent="1">
-          <mxGeometry x="930" y="380" width="200" height="110" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="value-12" value="H.&#xa;若手の力を借りながら&#xa;時代に合った銭湯を実現し&#xa;創業者として新たな挑戦に&#xa;成功できて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#37474F;align=center;" vertex="1" parent="1">
-          <mxGeometry x="930" y="510" width="200" height="100" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="value-13" value="G.&#xa;世代交流の湯として&#xa;地域の絆を深め&#xa;町内に恩返しができ&#xa;銭湯を次世代に残せて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#880E4F;align=center;" vertex="1" parent="1">
-          <mxGeometry x="930" y="630" width="200" height="100" as="geometry"/>
-        </mxCell>
-
-        <!-- 町内会の若手20名の価値記述（C系、F系、G系） -->
-        <mxCell id="value-14" value="C.&#xa;月間売上500万円達成で&#xa;出資が回収される見通しが立ち&#xa;町おこしへの貢献を&#xa;実感できて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#4A148C;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="250" width="200" height="110" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="value-15" value="F.&#xa;世代交流の湯として&#xa;多世代が集う成果により&#xa;町おこしの成功を&#xa;確認できて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#006064;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="380" width="200" height="100" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="value-16" value="F.&#xa;若手20名で協力することで&#xa;地域のシンボルを守り育てる&#xa;一体感とやりがいを&#xa;得られて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#006064;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="500" width="200" height="100" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="value-17" value="G.&#xa;持続可能な銭湯モデルを構築し&#xa;次世代に引き継げる地域資産を創り&#xa;後世に残せることに&#xa;誇りを感じられて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#880E4F;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="620" width="200" height="110" as="geometry"/>
-        </mxCell>
-
-        <!-- 地元町内の住民の価値記述（A系、B系、C系、H系） -->
-        <mxCell id="value-18" value="A.&#xa;週2回の割引制度で&#xa;世代を超えた人々と自然に会え&#xa;ここに来れば誰かに会える&#xa;安心感を得られて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#01579B;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1530" y="250" width="200" height="110" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="value-19" value="C.&#xa;スーパー銭湯より安い価格で&#xa;質の高い入浴環境を利用でき&#xa;リラックス効果と健康維持を&#xa;享受できて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#4A148C;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1530" y="380" width="200" height="110" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="value-20" value="A.&#xa;コミュニティ湯処として&#xa;リラックスしながら&#xa;他者とつながる居場所を持ち&#xa;日々の暮らしに潤いが生まれて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#01579B;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1530" y="510" width="200" height="110" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="value-21" value="B.&#xa;改装された銭湯で&#xa;地域住民と交流を深め&#xa;町内のつながりが復活し&#xa;地域への愛着が高まって嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1530" y="640" width="200" height="110" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="value-22" value="H.&#xa;魅力的に生まれ変わった風呂屋で&#xa;銭湯文化の良さを再発見し&#xa;現代に合った銭湯習慣を&#xa;取り戻せて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#37474F;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1530" y="770" width="200" height="110" as="geometry"/>
-        </mxCell>
-
-        <!-- 株式会社「風呂屋の匠」（自社）の価値記述（C系、D系、E系、G系） -->
-        <mxCell id="value-23" value="C.&#xa;割引制度と集客施策により&#xa;月間500万円の安定売上を達成し&#xa;事業継続の危機を脱して&#xa;経営基盤が安定して嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#4A148C;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2030" y="250" width="200" height="110" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="value-24" value="D.&#xa;世代を超えた交流の場を提供し&#xa;普通の銭湯から脱却し&#xa;地域で唯一無二の価値を持つ&#xa;銭湯として認知されて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2030" y="380" width="200" height="110" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="value-25" value="C.&#xa;500万円の改装費用で&#xa;第三の居場所として整備し&#xa;集客力が向上して&#xa;投資効果が最大化されて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#4A148C;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2030" y="510" width="200" height="110" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="value-26" value="E.&#xa;若手出資者20名の協力と&#xa;持続可能な事業モデルにより&#xa;次世代への事業承継の仕組みが整い&#xa;息子へ引き継げて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#F57F17;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2030" y="640" width="200" height="110" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="value-27" value="G.&#xa;世代交流の湯として&#xa;地域の絆を深める役割を果たし&#xa;営利を超えた社会的価値を創出し&#xa;誇りを持って引き継げて嬉しい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#880E4F;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2030" y="770" width="200" height="110" as="geometry"/>
-        </mxCell>
-
-        <!-- 目的（最下部） -->
-        <mxCell id="objective-A" value="A.&#xa;地域交流拠点の確立" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#01579B;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="100" y="1400" width="200" height="80" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="objective-B" value="B.&#xa;世代間交流の促進" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="380" y="1400" width="200" height="80" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="objective-C" value="C.&#xa;持続可能な&#xa;事業モデルの構築" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#4A148C;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="660" y="1400" width="200" height="80" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="objective-D" value="D.&#xa;差別化ブランドの確立" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="940" y="1400" width="200" height="80" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="objective-E" value="E.&#xa;円滑な事業承継の実現" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#F57F17;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1220" y="1400" width="200" height="80" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="objective-F" value="F.&#xa;地域活性化への貢献" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#006064;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1500" y="1400" width="200" height="80" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="objective-G" value="G.&#xa;地域への恩返しと&#xa;誇りの創出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#880E4F;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1780" y="1400" width="200" height="80" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="objective-H" value="H.&#xa;銭湯文化の&#xa;継承と革新" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#37474F;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2060" y="1400" width="200" height="80" as="geometry"/>
+        <mxCell id="objJ" value="J. 創業者の安堵と&#xa;貢献感の実現" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F7F4;strokeColor=#4DB6AC;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="700" width="155" height="60" as="geometry" />
         </mxCell>
 
       </root>

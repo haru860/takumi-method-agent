@@ -24,8 +24,10 @@ env/
 
 # DrawIO backup
 *.drawio.bak
+*.drawio.bkp
 *.drawio~
 ~$*.drawio
+
 
 # OS temp
 *.swp

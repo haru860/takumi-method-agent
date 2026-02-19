@@ -71,8 +71,11 @@ color: blue
 - 業務要求名
 - 説明
 - 関連する目的
+  - `output/value-analysis-value-description.tsv`の「関連する目的」をそのまま出力する
 - 関連する価値記述名（業務要求の元となった価値記述名）
+  -  `output/value-analysis-value-description.tsv`の関連する価値記述名をそのまま出力する
 - 関連する価値記述（業務要求の元となった価値記述）
+  - `output/value-analysis-value-description.tsv`の関連する価値記述をそのまま出力する
 
 ## 手順3: 業務要求、出力件数の確認
 【重要】「`output/value-analysis-value-description.tsv`の価値記述の全件数」と、作成結果の業務要求の出力件数が一致していることを確認し、一致していれば処理終了。一致していない場合、手順3に戻る。

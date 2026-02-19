@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
   <diagram id="miGZCNymF9Pv-zzVXYWx" name="ページ1">
-    <mxGraphModel dx="3026" dy="1161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1965" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,7 +95,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="19" parent="1" style="ellipse;shape=umlControl;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" value="/value-analysis-value-description" vertex="1">
-          <mxGeometry height="57.15" width="50" x="1310" y="213.50000000000006" as="geometry" />
+          <mxGeometry height="57.15" width="50" x="1309" y="213.50000000000006" as="geometry" />
         </mxCell>
         <mxCell id="Pm7DfM9ME_L8bHklgmKC-39" edge="1" parent="1" source="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Pm7DfM9ME_L8bHklgmKC-37">
           <mxGeometry relative="1" as="geometry" />
@@ -111,11 +111,8 @@
         <mxCell id="Pm7DfM9ME_L8bHklgmKC-36" edge="1" parent="1" source="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Pm7DfM9ME_L8bHklgmKC-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pm7DfM9ME_L8bHklgmKC-83" edge="1" parent="1" source="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Pm7DfM9ME_L8bHklgmKC-82">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="32" parent="1" style="ellipse;shape=umlControl;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" value="/value-analysis-objective" vertex="1">
-          <mxGeometry height="57.15" width="50" x="1310" y="350" as="geometry" />
+          <mxGeometry height="57.15" width="50" x="1309" y="350" as="geometry" />
         </mxCell>
         <mxCell id="Pm7DfM9ME_L8bHklgmKC-66" edge="1" parent="1" source="Pm7DfM9ME_L8bHklgmKC-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.2;entryY=0.69;entryDx=0;entryDy=0;entryPerimeter=0;" target="Pm7DfM9ME_L8bHklgmKC-57">
           <mxGeometry relative="1" as="geometry">
@@ -269,7 +266,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Pm7DfM9ME_L8bHklgmKC-82" parent="1" style="ellipse;shape=umlControl;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" value="/value-analysis-drawio-generator" vertex="1">
-          <mxGeometry height="57.15" width="50" x="1310" y="977" as="geometry" />
+          <mxGeometry height="57.15" width="50" x="1309" y="977" as="geometry" />
         </mxCell>
         <mxCell id="Pm7DfM9ME_L8bHklgmKC-91" edge="1" parent="1" source="Pm7DfM9ME_L8bHklgmKC-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Pm7DfM9ME_L8bHklgmKC-90">
           <mxGeometry relative="1" as="geometry" />
@@ -459,7 +456,7 @@
           <mxGeometry height="30" width="150" x="1250" y="244.81" as="geometry" />
         </mxCell>
         <mxCell id="N7WDdeKxbZsix6YfpBZZ-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#0000CC;" value="価値分析モデル&lt;br&gt;(目的)" vertex="1">
-          <mxGeometry height="30" width="150" x="1250" y="374.15" as="geometry" />
+          <mxGeometry height="30" width="150" x="1250" y="378.15" as="geometry" />
         </mxCell>
         <mxCell id="N7WDdeKxbZsix6YfpBZZ-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#0000CC;" value="要求分析ツリー&lt;br&gt;(業務要求)" vertex="1">
           <mxGeometry height="30" width="150" x="1749" y="243.81" as="geometry" />
@@ -502,6 +499,18 @@
         </mxCell>
         <mxCell id="N7WDdeKxbZsix6YfpBZZ-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#0000CC;" value="提案書作成" vertex="1">
           <mxGeometry height="30" width="90" x="4288" y="1170.73" as="geometry" />
+        </mxCell>
+        <mxCell id="AyYLW3qcYImX91hgw9mm-32" parent="1" style="ellipse;shape=umlControl;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" value="/value-analysis-relation" vertex="1">
+          <mxGeometry height="57.15" width="50" x="1309" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="AyYLW3qcYImX91hgw9mm-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#0000CC;" value="価値分析モデル&lt;br&gt;(価値記述と目的の関連付け)" vertex="1">
+          <mxGeometry height="30" width="200" x="1250" y="517.15" as="geometry" />
+        </mxCell>
+        <mxCell id="AyYLW3qcYImX91hgw9mm-35" edge="1" parent="1" source="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.192;entryDx=0;entryDy=0;entryPerimeter=0;" target="AyYLW3qcYImX91hgw9mm-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AyYLW3qcYImX91hgw9mm-36" edge="1" parent="1" source="AyYLW3qcYImX91hgw9mm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.52;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;" target="Pm7DfM9ME_L8bHklgmKC-82">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

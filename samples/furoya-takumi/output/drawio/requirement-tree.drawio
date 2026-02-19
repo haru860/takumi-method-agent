@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2026-02-17T00:00:00.000Z" agent="Claude Code" version="24.0.0" type="device">
+<mxfile host="app.diagrams.net" modified="2026-02-19T00:00:00.000Z" agent="Claude Code" version="24.0.0" type="device">
   <diagram name="要求分析ツリー" id="requirement-tree">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="10000" math="0" shadow="0">
+    <mxGraphModel dx="2000" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="10000" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -19,609 +19,587 @@
           <mxGeometry x="1680" y="20" width="200" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="section-line-1" value="" style="line;strokeWidth=1;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="20" width="10" height="2780" as="geometry"/>
+          <mxGeometry x="1030" y="20" width="10" height="2820" as="geometry"/>
         </mxCell>
         <mxCell id="section-line-2" value="" style="line;strokeWidth=1;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="20" width="10" height="2780" as="geometry"/>
+          <mxGeometry x="1330" y="20" width="10" height="2820" as="geometry"/>
         </mxCell>
-
-        <!-- ビジョン -->
-        <mxCell id="vision" value="地域の人々が日常的に集い、&#xa;世代を超えた交流が生まれる。&#xa;湯煙の中に笑顔と会話が溢れ、&#xa;「ここに来れば誰かに会える」&#xa;安心を届ける、次世代に誇りを&#xa;持って引き継げる銭湯を創る" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1250" width="250" height="140" as="geometry"/>
+        <mxCell id="section-line-3" value="" style="line;strokeWidth=1;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="20" width="10" height="2820" as="geometry"/>
         </mxCell>
-
-        <!-- コンセプト1: コミュニティ湯処（ゆどころ） -->
-        <mxCell id="concept1" value="コミュニティ湯処&#xa;（ゆどころ）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="400" y="430" width="200" height="60" as="geometry"/>
+        <mxCell id="act-1-1" value="休憩スペースの整備と地域掲示板の運営" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="80" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-c1-v" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="concept1" target="vision">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="act-1-2" value="常連客への声かけとコミュニティ醸成活動" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="145" width="200" height="50" as="geometry"/>
         </mxCell>
-
-        <!-- コンセプト2: 世代交流の湯 -->
-        <mxCell id="concept2" value="世代交流の湯" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1180" width="200" height="60" as="geometry"/>
+        <mxCell id="br-1" value="地域住民が通いたくなる居場所づくりの運営" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="112" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-c2-v" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="concept2" target="vision">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="act-2-1" value="スタンプカード・常連割引制度の設計と運用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="210" width="200" height="50" as="geometry"/>
         </mxCell>
-
-        <!-- コンセプト3: 地域と共に続く銭湯 -->
-        <mxCell id="concept3" value="地域と共に続く銭湯" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="400" y="2000" width="200" height="60" as="geometry"/>
+        <mxCell id="act-2-2" value="離脱傾向会員へのフォローアップ活動" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="275" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-c3-v" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="concept3" target="vision">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="it-2-1" value="会員・リピーター管理システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="212" width="160" height="45" as="geometry"/>
         </mxCell>
-
-        <!-- ===== コンセプト1: コミュニティ湯処 ===== -->
-
-        <!-- 目的1-1: 地域交流拠点の確立 -->
-        <mxCell id="obj1-1" value="地域交流拠点の確立" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="700" y="170" width="180" height="60" as="geometry"/>
+        <mxCell id="br-2" value="日常的な来訪習慣を促すリピーター施策の実施" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="242" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-o1-1-c1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj1-1" target="concept1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="obj-1-1" value="地域の居場所としての銭湯の確立" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="172" width="200" height="60" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求1-1-1 -->
-        <mxCell id="br1-1-1" value="第三の居場所としての空間整備" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="80" width="160" height="50" as="geometry"/>
+        <mxCell id="act-3-1" value="薬草風呂・サウナなど付加価値入浴サービスの運営" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="355" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br1-1-1-o1-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br1-1-1" target="obj1-1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="act-3-2" value="価格設定と品質バランスの定期見直し" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="420" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="it1-1-1" value="イベント予約・管理システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="70" width="140" height="45" as="geometry"/>
+        <mxCell id="br-3" value="手頃な価格での高品質入浴体験の提供" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="387" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it1-1-1-br1-1-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it1-1-1" target="br1-1-1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="act-4-1" value="地域素材を活かした体験コンテンツの企画と運営" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="485" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="act1-1-1" value="交流イベント企画・運営" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="70" width="140" height="45" as="geometry"/>
+        <mxCell id="it-4-1" value="イベント・コンテンツ管理システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="487" width="160" height="45" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act1-1-1-br1-1-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act1-1-1" target="br1-1-1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="br-4" value="来訪者が体験するコンテンツの企画・提供" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="485" width="180" height="50" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求1-1-2 -->
-        <mxCell id="br1-1-2" value="町内住民の日常的な&#xa;交流機会の提供" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="150" width="160" height="50" as="geometry"/>
+        <mxCell id="act-5-1" value="来訪者アンケートの実施と満足度分析・改善" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="550" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br1-1-2-o1-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br1-1-2" target="obj1-1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="it-5-1" value="顧客満足度調査システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="552" width="160" height="45" as="geometry"/>
         </mxCell>
-        <mxCell id="it1-1-2" value="コミュニティ&#xa;マッチングシステム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="140" width="140" height="45" as="geometry"/>
+        <mxCell id="br-5" value="来訪者の期待に応える価値提供と満足度管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="550" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it1-1-2-br1-1-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it1-1-2" target="br1-1-2">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="obj-1-2" value="魅力的な入浴体験の提供" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="463" width="200" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="act1-1-2" value="常連客同士の&#xa;交流促進サポート" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="140" width="140" height="45" as="geometry"/>
+        <mxCell id="act-6-1" value="経営会議オブザーバー参加と現場体験の運営" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="630" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act1-1-2-br1-1-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act1-1-2" target="br1-1-2">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="it-6-1" value="出資者参画ポータルサイト" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="632" width="160" height="45" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求1-1-3 -->
-        <mxCell id="br1-1-3" value="第三の居場所としての&#xa;安らぎ空間の実現" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="220" width="160" height="50" as="geometry"/>
+        <mxCell id="br-6" value="出資者が経営参画できる仕組みの整備" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="630" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br1-1-3-o1-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.7;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br1-1-3" target="obj1-1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="act-7-1" value="来客者の声・メディア掲載実績の収集と共有" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="695" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="it1-1-3" value="デジタルサイネージ&#xa;システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="210" width="140" height="45" as="geometry"/>
+        <mxCell id="br-7" value="地域への影響力を実感できる成果の可視化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="695" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it1-1-3-br1-1-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it1-1-3" target="br1-1-3">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="act-8-1" value="息子を中心とした協働プロジェクトの推進" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="760" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="act1-1-3" value="くつろぎスペース運営" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="210" width="140" height="45" as="geometry"/>
+        <mxCell id="br-8" value="仲間との協働経営による充実感の醸成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="760" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act1-1-3-br1-1-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act1-1-3" target="br1-1-3">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="obj-1-3" value="地域住民・出資者の参画意識の醸成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="690" width="200" height="60" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求1-1-4 -->
-        <mxCell id="br1-1-4" value="地域の絆を再構築する&#xa;交流促進" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="290" width="160" height="50" as="geometry"/>
+        <mxCell id="act-9-1" value="SNS・地域メディアでの定期的な情報発信活動" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="840" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br1-1-4-o1-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.8;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br1-1-4" target="obj1-1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="it-9-1" value="銭湯公式ホームページ・予約サイト" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="842" width="160" height="45" as="geometry"/>
         </mxCell>
-        <mxCell id="it1-1-4" value="地域交流促進アプリ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="280" width="140" height="45" as="geometry"/>
+        <mxCell id="br-9" value="銭湯の情報発信と認知拡大の推進" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="840" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it1-1-4-br1-1-4" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it1-1-4" target="br1-1-4">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="obj-1-4" value="銭湯の認知拡大と新規集客の実現" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="835" width="200" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="act1-1-4" value="地域交流コーディネーター&#xa;の配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="280" width="140" height="45" as="geometry"/>
+        <mxCell id="concept-1" value="コミュニティ湯処（ゆどころ）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="400" y="503" width="200" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act1-1-4-br1-1-4" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act1-1-4" target="br1-1-4">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="act-10-1" value="季節イベント・世代間語らいの会の企画と運営" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="945" width="200" height="50" as="geometry"/>
         </mxCell>
-
-        <!-- 目的1-2: 差別化ブランドの確立 -->
-        <mxCell id="obj1-2" value="差別化ブランドの確立" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="700" y="430" width="180" height="60" as="geometry"/>
+        <mxCell id="act-10-2" value="世代間交流を促すレイアウト設計と声かけ施策の実施" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1010" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-o1-2-c1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj1-2" target="concept1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="br-10" value="世代間交流イベントの企画・運営" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="977" width="180" height="50" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求1-2-1 -->
-        <mxCell id="br1-2-1" value="コミュニティ湯処としての&#xa;ブランド確立" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="400" width="160" height="50" as="geometry"/>
+        <mxCell id="act-11-1" value="出資者・協力者向け懇親会とコミュニティ活動の運営" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1075" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br1-2-1-o1-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br1-2-1" target="obj1-2">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="br-11" value="出資者・協力者のコミュニティ形成支援" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1075" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="it1-2-1" value="コミュニティ情報発信&#xa;プラットフォーム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="390" width="140" height="45" as="geometry"/>
+        <mxCell id="obj-2-1" value="世代を超えた交流の場の創出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1021" width="200" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it1-2-1-br1-2-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it1-2-1" target="br1-2-1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="act-12-1" value="運営業務のマニュアル整備とスタッフ育成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1155" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="act1-2-1" value="コミュニティ湯処ブランド&#xa;構築ワークショップの開催" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="390" width="140" height="45" as="geometry"/>
+        <mxCell id="act-12-2" value="財務管理の標準化と経営基盤の安定化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1220" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act1-2-1-br1-2-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act1-2-1" target="br1-2-1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="br-12" value="廃業回避・継続経営を実現するための事業基盤整備" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1187" width="180" height="50" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求1-2-2 -->
-        <mxCell id="br1-2-2" value="近隣地域への特別な&#xa;価値体験の提供" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="470" width="160" height="50" as="geometry"/>
+        <mxCell id="act-13-1" value="若手メンバーの役割分担と協働プロジェクトの推進" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1285" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br1-2-2-o1-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.7;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br1-2-2" target="obj1-2">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="br-13" value="若手出資者・協力者との協働運営体制の構築" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1285" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="it1-2-2" value="体験予約・クーポン&#xa;配信システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="460" width="140" height="45" as="geometry"/>
+        <mxCell id="act-14-1" value="銭湯の品質・サービスの維持向上と顧客の声の共有" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1350" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it1-2-2-br1-2-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it1-2-2" target="br1-2-2">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="br-14" value="創業者が誇りを持てる銭湯への再生・品質向上" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1350" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="act1-2-2" value="近隣地域向け体験&#xa;イベントの開催" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="460" width="140" height="45" as="geometry"/>
+        <mxCell id="act-15-1" value="感謝メッセージの収集と表彰イベントの実施" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1415" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act1-2-2-br1-2-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act1-2-2" target="br1-2-2">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="it-15-1" value="地域からの感謝メッセージ収集・表示システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="1417" width="160" height="45" as="geometry"/>
         </mxCell>
-
-        <!-- 目的1-3: 地域への恩返しと誇りの創出 -->
-        <mxCell id="obj1-3" value="地域への恩返しと&#xa;誇りの創出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="700" y="680" width="180" height="60" as="geometry"/>
+        <mxCell id="br-15" value="地域からの感謝を田中さんに届ける仕組みの整備" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1415" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-o1-3-c1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.8;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj1-3" target="concept1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="obj-2-2" value="創業者の安堵と貢献感の実現" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1296" width="200" height="60" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求1-3-1 -->
-        <mxCell id="br1-3-1" value="社会的価値の創出による&#xa;誇りの確立" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="570" width="160" height="50" as="geometry"/>
+        <mxCell id="concept-2" value="世代交流の湯" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1158" width="200" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br1-3-1-o1-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.2;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br1-3-1" target="obj1-3">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="act-16-1" value="ブランドコンセプトの策定と店内演出の設計" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1520" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="it1-3-1" value="社会的インパクト測定&#xa;ダッシュボード" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="560" width="140" height="45" as="geometry"/>
+        <mxCell id="br-16" value="地域ブランドとしての銭湯アイデンティティの確立" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1520" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it1-3-1-br1-3-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it1-3-1" target="br1-3-1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="act-17-1" value="銭湯の歴史・改装ストーリーの記事作成と発信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1585" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="act1-3-1" value="社会的価値レポート&#xa;作成・発信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="560" width="140" height="45" as="geometry"/>
+        <mxCell id="act-17-2" value="住民参加型コンテンツの企画と実施" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1650" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act1-3-1-br1-3-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act1-3-1" target="br1-3-1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="it-17-1" value="銭湯SNS・情報発信管理システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="1587" width="160" height="45" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求1-3-2 -->
-        <mxCell id="br1-3-2" value="次世代に誇れる&#xa;地域資産の創出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="640" width="160" height="50" as="geometry"/>
+        <mxCell id="br-17" value="地域への誇りと愛着を育む情報発信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1617" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br1-3-2-o1-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.4;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br1-3-2" target="obj1-3">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="obj-3-1" value="地域ブランドとしての銭湯の確立" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1563" width="200" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="it1-3-2" value="地域資産ストーリー&#xa;テリングサイト" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="630" width="140" height="45" as="geometry"/>
+        <mxCell id="act-18-1" value="日次・月次の売上集計と目標進捗の確認" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1730" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it1-3-2-br1-3-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it1-3-2" target="br1-3-2">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="act-18-2" value="料金プランの見直しと季節キャンペーンの企画" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1795" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="act1-3-2" value="地域資産ストーリー&#xa;発信活動" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="630" width="140" height="45" as="geometry"/>
+        <mxCell id="it-18-1" value="来客数・売上管理システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="1732" width="160" height="45" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act1-3-2-br1-3-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act1-3-2" target="br1-3-2">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="br-18" value="収益目標達成のための集客・運営管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1762" width="180" height="50" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求1-3-3 -->
-        <mxCell id="br1-3-3" value="地域への恩返しの実現" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="710" width="160" height="50" as="geometry"/>
+        <mxCell id="act-19-1" value="改装前後のデータ比較分析と報告書の作成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1860" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br1-3-3-o1-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.6;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br1-3-3" target="obj1-3">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="it-19-1" value="改装効果測定ダッシュボード" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="1862" width="160" height="45" as="geometry"/>
         </mxCell>
-        <mxCell id="it1-3-3" value="地域貢献活動記録&#xa;システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="700" width="140" height="45" as="geometry"/>
+        <mxCell id="br-19" value="改装効果の測定・評価と継続改善" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1860" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it1-3-3-br1-3-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it1-3-3" target="br1-3-3">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="act-20-1" value="月次・四半期経営レポートの作成と報告会の開催" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1925" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="act1-3-3" value="地域貢献活動の&#xa;企画・実施" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="700" width="140" height="45" as="geometry"/>
+        <mxCell id="it-20-1" value="出資者向け経営レポート配信システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="1927" width="160" height="45" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act1-3-3-br1-3-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act1-3-3" target="br1-3-3">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="br-20" value="出資者向けの経営状況の定期報告" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1925" width="180" height="50" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求1-3-4 -->
-        <mxCell id="br1-3-4" value="次世代経営者としての&#xa;誇りの醸成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="780" width="160" height="50" as="geometry"/>
+        <mxCell id="obj-3-2" value="安定収益モデルの構築" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1838" width="200" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br1-3-4-o1-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.8;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br1-3-4" target="obj1-3">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="act-21-1" value="承継ロードマップの策定と定期レビュー" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2005" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="act1-3-4" value="次世代経営者としての&#xa;役割付与" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="770" width="140" height="45" as="geometry"/>
+        <mxCell id="act-21-2" value="OJTによる経営ノウハウの移転" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2070" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act1-3-4-br1-3-4" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act1-3-4" target="br1-3-4">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="it-21-1" value="事業承継進捗管理システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="2007" width="160" height="45" as="geometry"/>
         </mxCell>
-
-        <!-- ===== コンセプト2: 世代交流の湯 ===== -->
-
-        <!-- 目的2-1: 世代間交流の促進（業務要求なし） -->
-        <mxCell id="obj2-1" value="世代間交流の促進" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="700" y="900" width="180" height="60" as="geometry"/>
+        <mxCell id="br-21" value="事業承継計画の策定と実施" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="2037" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-o2-1-c2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj2-1" target="concept2">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="act-22-1" value="息子への段階的な権限移譲の実施" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2135" width="200" height="50" as="geometry"/>
         </mxCell>
-
-        <!-- 目的2-2: 銭湯文化の継承と革新 -->
-        <mxCell id="obj2-2" value="銭湯文化の継承と革新" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="700" y="1060" width="180" height="60" as="geometry"/>
+        <mxCell id="act-22-2" value="父子間の定期対話の場の設定と運営" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2200" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-o2-2-c2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.7;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj2-2" target="concept2">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="br-22" value="息子への段階的な権限移譲と承継サポート" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="2167" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-23-1" value="収益モデルの多角化検討と事業成長実績の蓄積" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2265" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="br-23" value="将来性ある事業モデルへの転換と実績構築" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="2265" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-24-1" value="息子向け実践的経営教育プログラムの実施" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2330" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="br-24" value="次世代経営者向けの実践的経営教育の提供" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="2330" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="obj-3-3" value="次世代への誇りある事業承継の実現" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="2178" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-25-1" value="認定制度の調査と申請書類の作成・提出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2410" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-25-2" value="認定マークを活用したPR活動の実施" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2475" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="it-25-1" value="町おこし申請支援システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="2412" width="160" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="br-25" value="町おこしプロジェクト認定の申請・取得" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="2442" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-26-1" value="地域貢献成果の集計と出資者向け報告の実施" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2540" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="it-26-1" value="地域活性化成果可視化システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="2542" width="160" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="br-26" value="町おこし成果の可視化と出資者への還元報告" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="2540" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-27-1" value="地域貢献指標の定期収集と行政向け報告書の作成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2605" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="br-27" value="地域活性化への貢献実績の収集・報告" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="2605" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-28-1" value="行政との定期連絡会の開催と先進事例の情報整備" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2670" width="200" height="50" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求2-2-1 -->
-        <mxCell id="br2-2-1" value="現代に合った銭湯文化の&#xa;再体験機会の提供" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="980" width="160" height="50" as="geometry"/>
+        <mxCell id="br-28" value="官民連携モデルとしての活用推進" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="2670" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br2-2-1-o2-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br2-2-1" target="obj2-2">
+        <mxCell id="act-29-1" value="KPI設定と行政向け成果データ共有体制の構築" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2735" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="it-29-1" value="経営KPIモニタリングダッシュボード" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="2737" width="160" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="br-29" value="継続的成果モニタリング基盤の整備" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="2735" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="obj-3-4" value="地域活性化への貢献の可視化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="2583" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="concept-3" value="地域と共に続く銭湯" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2073" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vision" value="地域の人々が日常的に集い、世代を超えた交流が生まれる。湯煙の中に笑顔と会話が溢れ、「ここに来れば誰かに会える」安心を届ける、次世代に誇りを持って引き継げる銭湯を創る" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1248" width="250" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-act-1-1-br-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-1-1" target="br-1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="it2-2-1" value="銭湯文化デジタル&#xa;アーカイブ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="970" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-act-1-2-br-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-1-2" target="br-1">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it2-2-1-br2-2-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it2-2-1" target="br2-2-1">
+        <mxCell id="edge-act-2-1-br-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-2-1" target="br-2">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act2-2-1" value="銭湯文化体験プログラム&#xa;の提供" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="970" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-act-2-2-br-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-2-2" target="br-2">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act2-2-1-br2-2-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act2-2-1" target="br2-2-1">
+        <mxCell id="edge-it-2-1-br-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it-2-1" target="br-2">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求2-2-2 -->
-        <mxCell id="br2-2-2" value="時代に合った銭湯経営&#xa;への転換" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1050" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-br-1-obj-1-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-1" target="obj-1-1">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br2-2-2-o2-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br2-2-2" target="obj2-2">
+        <mxCell id="edge-br-2-obj-1-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-2" target="obj-1-1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="it2-2-2" value="顧客管理システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="1040" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-act-3-1-br-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-3-1" target="br-3">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it2-2-2-br2-2-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it2-2-2" target="br2-2-2">
+        <mxCell id="edge-act-3-2-br-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-3-2" target="br-3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act2-2-2" value="顧客ニーズ&#xa;ヒアリング活動" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="1040" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-act-4-1-br-4" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-4-1" target="br-4">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act2-2-2-br2-2-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act2-2-2" target="br2-2-2">
+        <mxCell id="edge-it-4-1-br-4" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it-4-1" target="br-4">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求2-2-3 -->
-        <mxCell id="br2-2-3" value="銭湯文化への&#xa;親しみの促進" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1120" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-act-5-1-br-5" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-5-1" target="br-5">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br2-2-3-o2-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.7;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br2-2-3" target="obj2-2">
+        <mxCell id="edge-it-5-1-br-5" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it-5-1" target="br-5">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act2-2-3" value="銭湯文化親しみ&#xa;促進活動" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="1110" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-br-3-obj-1-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-3" target="obj-1-2">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act2-2-3-br2-2-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act2-2-3" target="br2-2-3">
+        <mxCell id="edge-br-4-obj-1-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-4" target="obj-1-2">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- ===== コンセプト3: 地域と共に続く銭湯 ===== -->
-
-        <!-- 目的3-1: 持続可能な事業モデルの構築 -->
-        <mxCell id="obj3-1" value="持続可能な事業モデル&#xa;の構築" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="700" y="1380" width="180" height="60" as="geometry"/>
+        <mxCell id="edge-br-5-obj-1-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-5" target="obj-1-2">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-o3-1-c3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj3-1" target="concept3">
+        <mxCell id="edge-act-6-1-br-6" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-6-1" target="br-6">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求3-1-1 -->
-        <mxCell id="br3-1-1" value="割引制度を活用した&#xa;町内住民の利用促進" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1230" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-it-6-1-br-6" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it-6-1" target="br-6">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br3-1-1-o3-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.2;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br3-1-1" target="obj3-1">
+        <mxCell id="edge-act-7-1-br-7" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-7-1" target="br-7">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="it3-1-1" value="町内住民割引&#xa;管理システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="1220" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-act-8-1-br-8" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-8-1" target="br-8">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it3-1-1-br3-1-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it3-1-1" target="br3-1-1">
+        <mxCell id="edge-br-6-obj-1-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-6" target="obj-1-3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act3-1-1" value="町内住民向け割引証&#xa;発行窓口の運営" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="1220" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-br-7-obj-1-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-7" target="obj-1-3">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act3-1-1-br3-1-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act3-1-1" target="br3-1-1">
+        <mxCell id="edge-br-8-obj-1-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-8" target="obj-1-3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求3-1-2 -->
-        <mxCell id="br3-1-2" value="リーズナブルな価格での&#xa;質の高い入浴環境の提供" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1300" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-act-9-1-br-9" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-9-1" target="br-9">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br3-1-2-o3-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br3-1-2" target="obj3-1">
+        <mxCell id="edge-it-9-1-br-9" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it-9-1" target="br-9">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="it3-1-2" value="価格・サービス比較&#xa;表示システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="1290" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-br-9-obj-1-4" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-9" target="obj-1-4">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it3-1-2-br3-1-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it3-1-2" target="br3-1-2">
+        <mxCell id="edge-obj-1-1-concept-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj-1-1" target="concept-1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act3-1-2" value="品質管理・価格設定の&#xa;見直し活動" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="1290" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-obj-1-2-concept-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj-1-2" target="concept-1">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act3-1-2-br3-1-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act3-1-2" target="br3-1-2">
+        <mxCell id="edge-obj-1-3-concept-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj-1-3" target="concept-1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求3-1-3 -->
-        <mxCell id="br3-1-3" value="出資者への投資回収&#xa;見通しの提示" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1370" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-obj-1-4-concept-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj-1-4" target="concept-1">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br3-1-3-o3-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br3-1-3" target="obj3-1">
+        <mxCell id="edge-act-10-1-br-10" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-10-1" target="br-10">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="it3-1-3" value="投資家向け&#xa;レポーティングシステム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="1360" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-act-10-2-br-10" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-10-2" target="br-10">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it3-1-3-br3-1-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it3-1-3" target="br3-1-3">
+        <mxCell id="edge-act-11-1-br-11" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-11-1" target="br-11">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act3-1-3" value="出資者向け経営&#xa;報告会の開催" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="1360" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-br-10-obj-2-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-10" target="obj-2-1">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act3-1-3-br3-1-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act3-1-3" target="br3-1-3">
+        <mxCell id="edge-br-11-obj-2-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-11" target="obj-2-1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求3-1-4 -->
-        <mxCell id="br3-1-4" value="廃業危機からの&#xa;脱却の実現" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1440" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-act-12-1-br-12" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-12-1" target="br-12">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br3-1-4-o3-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.6;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br3-1-4" target="obj3-1">
+        <mxCell id="edge-act-12-2-br-12" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-12-2" target="br-12">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="it3-1-4" value="経営状況モニタリング&#xa;ダッシュボード" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="1430" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-act-13-1-br-13" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-13-1" target="br-13">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it3-1-4-br3-1-4" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it3-1-4" target="br3-1-4">
+        <mxCell id="edge-act-14-1-br-14" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-14-1" target="br-14">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act3-1-4" value="経営改善アクション&#xa;の実行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="1430" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-act-15-1-br-15" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-15-1" target="br-15">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act3-1-4-br3-1-4" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act3-1-4" target="br3-1-4">
+        <mxCell id="edge-it-15-1-br-15" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it-15-1" target="br-15">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求3-1-5 -->
-        <mxCell id="br3-1-5" value="近隣地域へのリーズナブル&#xa;な癒しの提供" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1510" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-br-12-obj-2-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-12" target="obj-2-2">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br3-1-5-o3-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.8;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br3-1-5" target="obj3-1">
+        <mxCell id="edge-br-13-obj-2-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-13" target="obj-2-2">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="it3-1-5" value="オンライン決済・&#xa;ポイントシステム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="1500" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-br-14-obj-2-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-14" target="obj-2-2">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it3-1-5-br3-1-5" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it3-1-5" target="br3-1-5">
+        <mxCell id="edge-br-15-obj-2-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-15" target="obj-2-2">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act3-1-5" value="近隣地域向け&#xa;キャンペーン実施" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="1500" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-obj-2-1-concept-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj-2-1" target="concept-2">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act3-1-5-br3-1-5" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act3-1-5" target="br3-1-5">
+        <mxCell id="edge-obj-2-2-concept-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj-2-2" target="concept-2">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求3-1-6 -->
-        <mxCell id="br3-1-6" value="継続的な成果モニタリング&#xa;体制の構築" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1580" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-act-16-1-br-16" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-16-1" target="br-16">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br3-1-6-o3-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.9;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br3-1-6" target="obj3-1">
+        <mxCell id="edge-act-17-1-br-17" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-17-1" target="br-17">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act3-1-6" value="成果モニタリング&#xa;会議の運営" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="1570" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-act-17-2-br-17" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-17-2" target="br-17">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act3-1-6-br3-1-6" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act3-1-6" target="br3-1-6">
+        <mxCell id="edge-it-17-1-br-17" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it-17-1" target="br-17">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 目的3-2: 円滑な事業承継の実現 -->
-        <mxCell id="obj3-2" value="円滑な事業承継の実現" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="700" y="1770" width="180" height="60" as="geometry"/>
+        <mxCell id="edge-br-16-obj-3-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-16" target="obj-3-1">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-o3-2-c3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj3-2" target="concept3">
+        <mxCell id="edge-br-17-obj-3-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-17" target="obj-3-1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求3-2-1 -->
-        <mxCell id="br3-2-1" value="次世代への事業承継&#xa;体制の構築" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1690" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-act-18-1-br-18" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-18-1" target="br-18">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br3-2-1-o3-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br3-2-1" target="obj3-2">
+        <mxCell id="edge-act-18-2-br-18" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-18-2" target="br-18">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="it3-2-1" value="事業承継ナレッジベース" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="1680" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-it-18-1-br-18" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it-18-1" target="br-18">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it3-2-1-br3-2-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it3-2-1" target="br3-2-1">
+        <mxCell id="edge-act-19-1-br-19" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-19-1" target="br-19">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act3-2-1" value="事業承継メンター&#xa;制度の構築" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="1680" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-it-19-1-br-19" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it-19-1" target="br-19">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act3-2-1-br3-2-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act3-2-1" target="br3-2-1">
+        <mxCell id="edge-act-20-1-br-20" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-20-1" target="br-20">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求3-2-2 -->
-        <mxCell id="br3-2-2" value="田中さんから息子への&#xa;円滑な事業承継の実現" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1760" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-it-20-1-br-20" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it-20-1" target="br-20">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br3-2-2-o3-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br3-2-2" target="obj3-2">
+        <mxCell id="edge-br-18-obj-3-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-18" target="obj-3-2">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="it3-2-2" value="経営承継トレーニング&#xa;システム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="1750" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-br-19-obj-3-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-19" target="obj-3-2">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it3-2-2-br3-2-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it3-2-2" target="br3-2-2">
+        <mxCell id="edge-br-20-obj-3-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-20" target="obj-3-2">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act3-2-2" value="後継者育成OJTプログラム&#xa;の実施" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="1750" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-act-21-1-br-21" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-21-1" target="br-21">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act3-2-2-br3-2-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act3-2-2" target="br3-2-2">
+        <mxCell id="edge-act-21-2-br-21" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-21-2" target="br-21">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求3-2-3 -->
-        <mxCell id="br3-2-3" value="息子への承継価値の&#xa;明確化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1830" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-it-21-1-br-21" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it-21-1" target="br-21">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br3-2-3-o3-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.7;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br3-2-3" target="obj3-2">
+        <mxCell id="edge-act-22-1-br-22" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-22-1" target="br-22">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act3-2-3" value="承継価値説明会の開催" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="1820" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-act-22-2-br-22" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-22-2" target="br-22">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act3-2-3-br3-2-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act3-2-3" target="br3-2-3">
+        <mxCell id="edge-act-23-1-br-23" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-23-1" target="br-23">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求3-2-4 -->
-        <mxCell id="br3-2-4" value="息子への経営スキル&#xa;習得機会の提供" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1900" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-act-24-1-br-24" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-24-1" target="br-24">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br3-2-4-o3-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.8;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br3-2-4" target="obj3-2">
+        <mxCell id="edge-br-21-obj-3-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-21" target="obj-3-3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act3-2-4" value="後継者向け経営スキル&#xa;研修の実施" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="1890" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-br-22-obj-3-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-22" target="obj-3-3">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act3-2-4-br3-2-4" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act3-2-4" target="br3-2-4">
+        <mxCell id="edge-br-23-obj-3-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-23" target="obj-3-3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 目的3-3: 地域活性化への貢献 -->
-        <mxCell id="obj3-3" value="地域活性化への貢献" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="700" y="2120" width="180" height="60" as="geometry"/>
+        <mxCell id="edge-br-24-obj-3-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-24" target="obj-3-3">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-o3-3-c3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.8;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj3-3" target="concept3">
+        <mxCell id="edge-act-25-1-br-25" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-25-1" target="br-25">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求3-3-1 -->
-        <mxCell id="br3-3-1" value="地域活性化の成果の可視化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="2010" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-act-25-2-br-25" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-25-2" target="br-25">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br3-3-1-o3-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.2;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br3-3-1" target="obj3-3">
+        <mxCell id="edge-it-25-1-br-25" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it-25-1" target="br-25">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="it3-3-1" value="地域活性化指標&#xa;ダッシュボード" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="2000" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-act-26-1-br-26" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-26-1" target="br-26">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it3-3-1-br3-3-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it3-3-1" target="br3-3-1">
+        <mxCell id="edge-it-26-1-br-26" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it-26-1" target="br-26">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act3-3-1" value="地域活性化成果&#xa;報告会の実施" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="2000" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-act-27-1-br-27" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-27-1" target="br-27">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act3-3-1-br3-3-1" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act3-3-1" target="br3-3-1">
+        <mxCell id="edge-act-28-1-br-28" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-28-1" target="br-28">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求3-3-2 -->
-        <mxCell id="br3-3-2" value="若手協力者のチーム&#xa;一体感の醸成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="2080" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-act-29-1-br-29" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act-29-1" target="br-29">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br3-3-2-o3-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.4;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br3-3-2" target="obj3-3">
+        <mxCell id="edge-it-29-1-br-29" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it-29-1" target="br-29">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="it3-3-2" value="チーム協働&#xa;プラットフォーム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="2070" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-br-25-obj-3-4" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-25" target="obj-3-4">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-it3-3-2-br3-3-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="it3-3-2" target="br3-3-2">
+        <mxCell id="edge-br-26-obj-3-4" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-26" target="obj-3-4">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act3-3-2" value="若手協力者定例&#xa;ミーティングの運営" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="2070" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-br-27-obj-3-4" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-27" target="obj-3-4">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act3-3-2-br3-3-2" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act3-3-2" target="br3-3-2">
+        <mxCell id="edge-br-28-obj-3-4" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-28" target="obj-3-4">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求3-3-3 -->
-        <mxCell id="br3-3-3" value="地域活性化の成功&#xa;モデルの確立" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="2150" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-br-29-obj-3-4" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br-29" target="obj-3-4">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br3-3-3-o3-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.6;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br3-3-3" target="obj3-3">
+        <mxCell id="edge-obj-3-1-concept-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj-3-1" target="concept-3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act3-3-3" value="成功モデル構築&#xa;プロジェクトの推進" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="2140" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-obj-3-2-concept-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj-3-2" target="concept-3">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act3-3-3-br3-3-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act3-3-3" target="br3-3-3">
+        <mxCell id="edge-obj-3-3-concept-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj-3-3" target="concept-3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- 業務要求3-3-4 -->
-        <mxCell id="br3-3-4" value="地域コミュニティ強化&#xa;拠点の確立" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="2220" width="160" height="50" as="geometry"/>
+        <mxCell id="edge-obj-3-4-concept-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="obj-3-4" target="concept-3">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-br3-3-4-o3-3" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.8;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="br3-3-4" target="obj3-3">
+        <mxCell id="edge-concept-1-vision" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="concept-1" target="vision">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="act3-3-4" value="コミュニティ拠点&#xa;運営体制の構築" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="2210" width="140" height="45" as="geometry"/>
+        <mxCell id="edge-concept-2-vision" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="concept-2" target="vision">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="edge-act3-3-4-br3-3-4" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="act3-3-4" target="br3-3-4">
+        <mxCell id="edge-concept-3-vision" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="concept-3" target="vision">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
       </root>
     </mxGraphModel>
   </diagram>

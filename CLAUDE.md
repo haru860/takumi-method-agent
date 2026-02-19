@@ -98,6 +98,7 @@
 | `/value-analysis-all-only-text-data` | Phase 3 TSV一括作成 | `output/value-analysis-*.tsv` |
 | `/value-analysis-value-description` | 価値記述の作成 | `output/value-analysis-value-description.tsv` |
 | `/value-analysis-objective` | 目的の作成 | `output/value-analysis-objective.tsv` |
+| `/value-analysis-relation` | 価値記述と目的の関連付け | `output/value-analysis-value-description.tsv`（更新） |
 | `/value-analysis-drawio-generator` | DrawIO生成 | `output/drawio/value-analysis.drawio` |
 
 ### Phase 4: 要求分析ツリー
