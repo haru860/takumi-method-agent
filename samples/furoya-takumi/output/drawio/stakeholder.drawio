@@ -1,318 +1,242 @@
-<mxfile host="app.diagrams.net" agent="Claude Code" version="26.2.0">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
   <diagram name="風呂屋復活プロジェクト - ステークホルダーモデル" id="stakeholder-model">
-    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-
-        <!-- 中央：株式会社「風呂屋の匠」（自社） -->
-        <mxCell id="2" value="株式会社&#xa;「風呂屋の匠」&#xa;（自社）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="760" y="480" width="60" height="120" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" value="株式会社&#xa;「風呂屋の匠」&#xa;（自社）" vertex="1">
+          <mxGeometry height="120" width="60" x="760" y="480" as="geometry" />
         </mxCell>
-
-        <!-- 重要度「高」：中央周辺に配置 -->
-
-        <!-- 地元町内の住民 -->
-        <mxCell id="3" value="地元町内&#xa;の住民" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="520" y="280" width="60" height="120" as="geometry"/>
+        <mxCell id="3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" value="地元町内&#xa;の住民" vertex="1">
+          <mxGeometry height="120" width="60" x="520" y="280" as="geometry" />
         </mxCell>
-
-        <!-- 町内会の若手20名 -->
-        <mxCell id="4" value="町内会の&#xa;若手20名&#xa;（出資者）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="280" width="60" height="120" as="geometry"/>
+        <mxCell id="4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" value="町内会の&#xa;若手20名&#xa;（出資者）" vertex="1">
+          <mxGeometry height="120" width="60" x="1000" y="280" as="geometry" />
         </mxCell>
-
-        <!-- 田中さん（創業者） -->
-        <mxCell id="5" value="田中さん&#xa;（創業者・&#xa;代表者）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="680" width="60" height="120" as="geometry"/>
+        <mxCell id="5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" value="田中さん&#xa;（創業者・&#xa;代表者）" vertex="1">
+          <mxGeometry height="120" width="60" x="1000" y="680" as="geometry" />
         </mxCell>
-
-        <!-- 重要度「中」：外側に配置 -->
-
-        <!-- 近隣地域からの来訪者 -->
-        <mxCell id="6" value="近隣地域&#xa;からの&#xa;来訪者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="280" y="480" width="60" height="120" as="geometry"/>
+        <mxCell id="6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" value="近隣地域&#xa;からの&#xa;来訪者" vertex="1">
+          <mxGeometry height="120" width="60" x="280" y="480" as="geometry" />
         </mxCell>
-
-        <!-- 田中さんの息子 -->
-        <mxCell id="7" value="田中さん&#xa;の息子&#xa;（承継候補）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="680" width="60" height="120" as="geometry"/>
+        <mxCell id="7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" value="田中さん&#xa;の息子&#xa;（承継候補）" vertex="1">
+          <mxGeometry height="120" width="60" x="1240" y="680" as="geometry" />
         </mxCell>
-
-        <!-- 地方自治体 -->
-        <mxCell id="8" value="地方&#xa;自治体" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="760" y="120" width="60" height="120" as="geometry"/>
+        <mxCell id="8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" value="地方&#xa;自治体" vertex="1">
+          <mxGeometry height="120" width="60" x="760" y="120" as="geometry" />
         </mxCell>
-
-        <!-- 重要度「低」：最外側 -->
-
-        <!-- 商店街関係者 -->
-        <mxCell id="9" value="商店街&#xa;関係者&#xa;（周辺事業者）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="280" y="120" width="60" height="120" as="geometry"/>
+        <mxCell id="9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;" value="商店街&#xa;関係者&#xa;（周辺事業者）" vertex="1">
+          <mxGeometry height="120" width="60" x="280" y="120" as="geometry" />
         </mxCell>
-
-        <!-- ステークホルダー間の関係 -->
-
-        <!-- 自社 → 地元住民：メイン顧客 -->
-        <mxCell id="10" value="町内割引提供" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="10" edge="1" parent="1" source="2" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;" target="3" value="町内割引提供">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" x="-20" y="-10"/>
+            <mxPoint x="-20" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-
-        <!-- 自社 → 来訪者：補完顧客 -->
-        <mxCell id="11" value="サービス提供" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="2" target="6">
+        <mxCell id="11" edge="1" parent="1" source="2" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;" target="6" value="サービス提供">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" x="0" y="-10"/>
+            <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-
-        <!-- 若手20名 → 自社：出資 -->
-        <mxCell id="12" value="出資・協力" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="4" target="2">
+        <mxCell id="12" edge="1" parent="1" source="4" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;" target="2" value="出資・協力">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" x="20" y="-10"/>
+            <mxPoint x="20" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-
-        <!-- 田中さん → 自社：経営 -->
-        <mxCell id="13" value="経営・代表" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="5" target="2">
+        <mxCell id="13" edge="1" parent="1" source="5" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;" target="2" value="経営・代表">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" x="20" y="10"/>
+            <mxPoint x="20" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
-
-        <!-- 田中さん → 息子：承継 -->
-        <mxCell id="14" value="事業承継" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="5" target="7">
+        <mxCell id="14" edge="1" parent="1" source="5" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;dashed=1;" target="7" value="事業承継">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" x="0" y="-10"/>
+            <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-
-        <!-- 自社 → 自治体：認定申請 -->
-        <mxCell id="15" value="町おこし認定申請" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="2" target="8">
+        <mxCell id="15" edge="1" parent="1" source="2" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;" target="8" value="町おこし認定申請">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" x="30" y="0"/>
+            <mxPoint x="30" as="offset" />
           </mxGeometry>
         </mxCell>
-
-        <!-- 自社 → 商店街：地域連携 -->
-        <mxCell id="16" value="地域活性化連携" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="2" target="9">
+        <mxCell id="16" edge="1" parent="1" source="2" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;dashed=1;" target="9" value="地域活性化連携">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" x="-30" y="-20"/>
+            <mxPoint x="-30" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-
-        <!-- 問題意識（株式会社「風呂屋の匠」）- 緑系 -->
-        <mxCell id="20" value="事業継続の危機" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="890" y="420" width="120" height="60" as="geometry"/>
+        <mxCell id="20" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="事業継続の危機" vertex="1">
+          <mxGeometry height="60" width="120" x="890" y="420" as="geometry" />
         </mxCell>
-        <mxCell id="21" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="2" target="20">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="21" edge="1" parent="1" source="2" style="endArrow=none;endFill=0;dashed=1;html=1;" target="20" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="22" value="月間売上&#xa;500万円の達成" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="460" width="120" height="60" as="geometry"/>
+        <mxCell id="22" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="月間売上&#xa;500万円の達成" vertex="1">
+          <mxGeometry height="60" width="120" x="1030" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="23" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="2" target="22">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="23" edge="1" parent="1" source="2" style="endArrow=none;endFill=0;dashed=1;html=1;" target="22" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="24" value="改装費用500万円の&#xa;効果的な活用" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="540" width="140" height="60" as="geometry"/>
+        <mxCell id="24" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="改装費用500万円の&#xa;効果的な活用" vertex="1">
+          <mxGeometry height="60" width="140" x="1030" y="540" as="geometry" />
         </mxCell>
-        <mxCell id="25" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="2" target="24">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="25" edge="1" parent="1" source="2" style="endArrow=none;endFill=0;dashed=1;html=1;" target="24" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="26" value="次世代への&#xa;円滑な事業承継" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="890" y="620" width="120" height="60" as="geometry"/>
+        <mxCell id="26" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="次世代への&#xa;円滑な事業承継" vertex="1">
+          <mxGeometry height="60" width="120" x="1030" y="610" as="geometry" />
         </mxCell>
-        <mxCell id="27" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="2" target="26">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="27" edge="1" parent="1" source="2" style="endArrow=none;endFill=0;dashed=1;html=1;" target="26" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="28" value="特徴のない&#xa;普通の銭湯からの脱却" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="730" y="620" width="140" height="60" as="geometry"/>
+        <mxCell id="28" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="特徴のない&#xa;普通の銭湯からの脱却" vertex="1">
+          <mxGeometry height="60" width="140" x="600" y="600" as="geometry" />
         </mxCell>
-        <mxCell id="29" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="2" target="28">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="29" edge="1" parent="1" source="2" style="endArrow=none;endFill=0;dashed=1;html=1;" target="28" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- 問題意識（地元町内の住民）- 青系 -->
-        <mxCell id="30" value="自宅にお風呂がある中で&#xa;銭湯に通う動機が弱い" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="360" y="200" width="150" height="60" as="geometry"/>
+        <mxCell id="30" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="自宅にお風呂がある中で&#xa;銭湯に通う動機が弱い" vertex="1">
+          <mxGeometry height="60" width="150" x="360" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="31" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="3" target="30">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="31" edge="1" parent="1" source="3" style="endArrow=none;endFill=0;dashed=1;html=1;" target="30" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="32" value="魅力的な風呂屋が&#xa;近所にない" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="360" y="280" width="120" height="60" as="geometry"/>
+        <mxCell id="32" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="魅力的な風呂屋が&#xa;近所にない" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="33" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="3" target="32">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="33" edge="1" parent="1" source="3" style="endArrow=none;endFill=0;dashed=1;html=1;" target="32" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="34" value="銭湯を利用する&#xa;習慣がない" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="360" y="360" width="120" height="60" as="geometry"/>
+        <mxCell id="34" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="銭湯を利用する&#xa;習慣がない" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="35" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="3" target="34">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="35" edge="1" parent="1" source="3" style="endArrow=none;endFill=0;dashed=1;html=1;" target="34" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="36" value="スーパー銭湯との比較で&#xa;価格や設備に不安" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="520" y="160" width="150" height="60" as="geometry"/>
+        <mxCell id="36" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="スーパー銭湯との比較で&#xa;価格や設備に不安" vertex="1">
+          <mxGeometry height="60" width="150" x="520" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="37" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="3" target="36">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="37" edge="1" parent="1" source="3" style="endArrow=none;endFill=0;dashed=1;html=1;" target="36" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- 問題意識（町内会の若手20名）- オレンジ系 -->
-        <mxCell id="40" value="投資の回収が不確実" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="160" width="120" height="60" as="geometry"/>
+        <mxCell id="40" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="投資の回収が不確実" vertex="1">
+          <mxGeometry height="60" width="120" x="1100" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="41" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="4" target="40">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="41" edge="1" parent="1" source="4" style="endArrow=none;endFill=0;dashed=1;html=1;" target="40" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="42" value="町おこしとしての成果が&#xa;目に見えにくい" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="240" width="150" height="60" as="geometry"/>
+        <mxCell id="42" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="町おこしとしての成果が&#xa;目に見えにくい" vertex="1">
+          <mxGeometry height="60" width="150" x="1100" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="43" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="4" target="42">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="43" edge="1" parent="1" source="4" style="endArrow=none;endFill=0;dashed=1;html=1;" target="42" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="44" value="銭湯経営の&#xa;ノウハウ不足" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="320" width="120" height="60" as="geometry"/>
+        <mxCell id="44" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="銭湯経営の&#xa;ノウハウ不足" vertex="1">
+          <mxGeometry height="60" width="120" x="1100" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="45" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="4" target="44">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="45" edge="1" parent="1" source="4" style="endArrow=none;endFill=0;dashed=1;html=1;" target="44" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="46" value="協力体制の維持・&#xa;モチベーション管理" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="280" width="140" height="60" as="geometry"/>
+        <mxCell id="46" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="協力体制の維持・&#xa;モチベーション管理" vertex="1">
+          <mxGeometry height="60" width="140" x="1260" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="47" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="4" target="46">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="47" edge="1" parent="1" source="4" style="endArrow=none;endFill=0;dashed=1;html=1;" target="46" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- 問題意識（田中さん）- 紫系 -->
-        <mxCell id="50" value="息子への&#xa;事業承継の困難" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="720" width="120" height="60" as="geometry"/>
+        <mxCell id="50" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="息子への&#xa;事業承継の困難" vertex="1">
+          <mxGeometry height="60" width="120" x="1100" y="720" as="geometry" />
         </mxCell>
-        <mxCell id="51" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="5" target="50">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="51" edge="1" parent="1" source="5" style="endArrow=none;endFill=0;dashed=1;html=1;" target="50" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="52" value="廃業か存続かの&#xa;決断のプレッシャー" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="800" width="130" height="60" as="geometry"/>
+        <mxCell id="52" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="廃業か存続かの&#xa;決断のプレッシャー" vertex="1">
+          <mxGeometry height="60" width="130" x="1100" y="800" as="geometry" />
         </mxCell>
-        <mxCell id="53" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="5" target="52">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="53" edge="1" parent="1" source="5" style="endArrow=none;endFill=0;dashed=1;html=1;" target="52" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="54" value="改装による&#xa;変化への適応" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="900" y="760" width="120" height="60" as="geometry"/>
+        <mxCell id="54" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="改装による&#xa;変化への適応" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="760" as="geometry" />
         </mxCell>
-        <mxCell id="55" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="5" target="54">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="55" edge="1" parent="1" source="5" style="endArrow=none;endFill=0;dashed=1;html=1;" target="54" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="56" value="新しい銭湯イメージへの&#xa;経営転換" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="900" y="840" width="150" height="60" as="geometry"/>
+        <mxCell id="56" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="新しい銭湯イメージへの&#xa;経営転換" vertex="1">
+          <mxGeometry height="60" width="150" x="840" y="840" as="geometry" />
         </mxCell>
-        <mxCell id="57" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="5" target="56">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="57" edge="1" parent="1" source="5" style="endArrow=none;endFill=0;dashed=1;html=1;" target="56" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- 問題意識（近隣地域からの来訪者）- ピンク系 -->
-        <mxCell id="60" value="遠方から来る&#xa;価値・魅力が不足" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="120" y="420" width="120" height="60" as="geometry"/>
+        <mxCell id="60" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="遠方から来る&#xa;価値・魅力が不足" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="420" as="geometry" />
         </mxCell>
-        <mxCell id="61" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="6" target="60">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="61" edge="1" parent="1" source="6" style="endArrow=none;endFill=0;dashed=1;html=1;" target="60" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="62" value="銭湯の存在や&#xa;特徴の認知度が低い" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="120" y="500" width="130" height="60" as="geometry"/>
+        <mxCell id="62" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="銭湯の存在や&#xa;特徴の認知度が低い" vertex="1">
+          <mxGeometry height="60" width="130" x="120" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="63" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="6" target="62">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="63" edge="1" parent="1" source="6" style="endArrow=none;endFill=0;dashed=1;html=1;" target="62" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="64" value="従来の銭湯より&#xa;高めの価格設定への抵抗" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="120" y="580" width="150" height="60" as="geometry"/>
+        <mxCell id="64" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="従来の銭湯より&#xa;高めの価格設定への抵抗" vertex="1">
+          <mxGeometry height="60" width="150" x="120" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="65" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="6" target="64">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="65" edge="1" parent="1" source="6" style="endArrow=none;endFill=0;dashed=1;html=1;" target="64" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- 問題意識（田中さんの息子）- 黄緑系 -->
-        <mxCell id="70" value="承継する価値が見えにくい&#xa;斜陽事業への不安" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="620" width="160" height="60" as="geometry"/>
+        <mxCell id="70" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="承継する価値が見えにくい&#xa;斜陽事業への不安" vertex="1">
+          <mxGeometry height="60" width="160" x="1340" y="620" as="geometry" />
         </mxCell>
-        <mxCell id="71" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="7" target="70">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="71" edge="1" parent="1" source="7" style="endArrow=none;endFill=0;dashed=1;html=1;" target="70" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="72" value="銭湯経営の&#xa;将来性への疑問" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="700" width="120" height="60" as="geometry"/>
+        <mxCell id="72" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="銭湯経営の&#xa;将来性への疑問" vertex="1">
+          <mxGeometry height="60" width="120" x="1340" y="700" as="geometry" />
         </mxCell>
-        <mxCell id="73" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="7" target="72">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="73" edge="1" parent="1" source="7" style="endArrow=none;endFill=0;dashed=1;html=1;" target="72" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="74" value="経営スキルの習得" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="780" width="120" height="60" as="geometry"/>
+        <mxCell id="74" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="経営スキルの習得" vertex="1">
+          <mxGeometry height="60" width="120" x="1340" y="780" as="geometry" />
         </mxCell>
-        <mxCell id="75" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="7" target="74">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="75" edge="1" parent="1" source="7" style="endArrow=none;endFill=0;dashed=1;html=1;" target="74" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- 問題意識（地方自治体）- グレー系 -->
-        <mxCell id="80" value="地域活性化への&#xa;具体的な貢献度の評価基準" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="860" y="40" width="170" height="60" as="geometry"/>
+        <mxCell id="80" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="地域活性化への&#xa;具体的な貢献度の評価基準" vertex="1">
+          <mxGeometry height="60" width="170" x="860" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="81" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="8" target="80">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="81" edge="1" parent="1" source="8" style="endArrow=none;endFill=0;dashed=1;html=1;" target="80" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="82" value="支援策の&#xa;適用可否判断" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="640" y="40" width="120" height="60" as="geometry"/>
+        <mxCell id="82" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="支援策の&#xa;適用可否判断" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="83" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="8" target="82">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="83" edge="1" parent="1" source="8" style="endArrow=none;endFill=0;dashed=1;html=1;" target="82" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="84" value="継続的な成果の&#xa;モニタリング方法" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="860" y="120" width="130" height="60" as="geometry"/>
+        <mxCell id="84" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="継続的な成果の&#xa;モニタリング方法" vertex="1">
+          <mxGeometry height="60" width="130" x="860" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="85" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="8" target="84">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="85" edge="1" parent="1" source="8" style="endArrow=none;endFill=0;dashed=1;html=1;" target="84" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- 問題意識（商店街関係者）- 紫系 -->
-        <mxCell id="90" value="銭湯の集客が周辺店舗への&#xa;波及効果につながるか不明" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="80" y="40" width="170" height="60" as="geometry"/>
+        <mxCell id="90" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="銭湯の集客が周辺店舗への&#xa;波及効果につながるか不明" vertex="1">
+          <mxGeometry height="60" width="170" x="80" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="91" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="9" target="90">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="91" edge="1" parent="1" source="9" style="endArrow=none;endFill=0;dashed=1;html=1;" target="90" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="92" value="連携施策の&#xa;具体案がない" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="80" y="120" width="120" height="60" as="geometry"/>
+        <mxCell id="92" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="連携施策の&#xa;具体案がない" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="93" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="9" target="92">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="93" edge="1" parent="1" source="9" style="endArrow=none;endFill=0;dashed=1;html=1;" target="92" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="94" value="商店街全体での&#xa;協力体制の構築" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="80" y="200" width="130" height="60" as="geometry"/>
+        <mxCell id="94" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="商店街全体での&#xa;協力体制の構築" vertex="1">
+          <mxGeometry height="60" width="130" x="80" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="95" value="" style="endArrow=none;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="9" target="94">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="95" edge="1" parent="1" source="9" style="endArrow=none;endFill=0;dashed=1;html=1;" target="94" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
       </root>
     </mxGraphModel>
   </diagram>
