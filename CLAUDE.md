@@ -35,6 +35,10 @@
 [アイデアの概要を記載]
 ```
 
+### ファイルから企画案を作成する場合
+
+`input/files/` ディレクトリにファイルを配置し、`/idea-create-from-files` コマンドで企画案を自動生成します。
+
 ### 既存製品・サービスを分析する場合
 
 `/idea-create-by-product-research <url1> [url2] ...` コマンドでURLから企画案を自動生成します。
@@ -68,6 +72,7 @@
 | コマンド | 説明 |
 |---------|------|
 | `/idea-create` | 対話型で企画案を作成 |
+| `/idea-create-from-files` | input/files内のファイルから企画案を生成 |
 | `/idea-create-by-product-research` | 既存製品・サービス分析から企画案を生成 |
 
 ### Phase 1: ステークホルダーモデル
